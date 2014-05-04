@@ -1,0 +1,11 @@
+2014-05-04 17:10:14.403 WoundApp[45562:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 17:10:14.417 WoundApp[45562:70b] Unlimited access to network resources
+2014-05-04 17:10:14.566 WoundApp[45562:70b] Resetting plugins due to page load.
+2014-05-04 17:10:15.033 WoundApp[45562:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-05-04 17:11:28.531 WoundApp[45774:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 17:11:28.543 WoundApp[45774:70b] Unlimited access to network resources
+2014-05-04 17:11:28.695 WoundApp[45774:70b] Resetting plugins due to page load.
+2014-05-04 17:11:29.205 WoundApp[45774:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 17:11:30.776 WoundApp[45774:70b] Camera.getPicture: source type 1 not available.
+2014-05-04 17:11:33.925 WoundApp[45774:70b] THREAD WARNING: ['Camera'] took '3149.690186' ms. Plugin should use a background thread.
