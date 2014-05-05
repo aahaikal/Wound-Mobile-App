@@ -9,3 +9,1310 @@ Terminating in response to SpringBoard's termination.
 2014-05-04 17:11:29.205 WoundApp[45774:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
 2014-05-04 17:11:30.776 WoundApp[45774:70b] Camera.getPicture: source type 1 not available.
 2014-05-04 17:11:33.925 WoundApp[45774:70b] THREAD WARNING: ['Camera'] took '3149.690186' ms. Plugin should use a background thread.
+2014-05-04 17:19:34.918 WoundApp[46275:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 17:19:34.932 WoundApp[46275:70b] Unlimited access to network resources
+2014-05-04 17:19:35.098 WoundApp[46275:70b] Resetting plugins due to page load.
+2014-05-04 17:19:35.606 WoundApp[46275:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 17:28:24.155 WoundApp[46975:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 17:28:24.168 WoundApp[46975:70b] Unlimited access to network resources
+2014-05-04 17:28:24.325 WoundApp[46975:70b] Resetting plugins due to page load.
+2014-05-04 17:28:24.832 WoundApp[46975:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 17:29:57.173 WoundApp[47193:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 17:29:57.186 WoundApp[47193:70b] Unlimited access to network resources
+2014-05-04 17:29:57.364 WoundApp[47193:70b] Resetting plugins due to page load.
+2014-05-04 17:29:57.891 WoundApp[47193:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 17:30:35.064 WoundApp[47193:70b] Camera.getPicture: source type 1 not available.
+2014-05-04 17:30:36.500 WoundApp[47193:70b] THREAD WARNING: ['Camera'] took '1436.836914' ms. Plugin should use a background thread.
+2014-05-04 19:06:05.508 WoundApp[51958:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 19:06:05.522 WoundApp[51958:70b] Unlimited access to network resources
+2014-05-04 19:06:05.685 WoundApp[51958:70b] Resetting plugins due to page load.
+2014-05-04 19:06:06.097 WoundApp[51958:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 19:06:10.743 WoundApp[51958:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 19:06:10.744 WoundApp[51958:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin885751544",
+  "PhoneGapSpeechPlugin",
+  "startRecognition",
+  [
+    "en",
+    "en"
+  ]
+]
+2014-05-04 19:06:16.263 WoundApp[51958:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 19:06:16.264 WoundApp[51958:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin885751545",
+  "PhoneGapSpeechPlugin",
+  "startRecognition",
+  [
+    "en",
+    "en"
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2014-05-04 19:14:36.565 WoundApp[52622:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 19:14:36.579 WoundApp[52622:70b] Unlimited access to network resources
+2014-05-04 19:14:36.738 WoundApp[52622:70b] Resetting plugins due to page load.
+2014-05-04 19:14:37.171 WoundApp[52622:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 19:14:40.004 WoundApp[52622:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 19:14:40.005 WoundApp[52622:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin1481365261",
+  "PhoneGapSpeechPlugin",
+  "startRecognition",
+  [
+    "dictation",
+    "en_us"
+  ]
+]
+2014-05-04 20:04:06.389 WoundApp[54443:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 20:04:06.402 WoundApp[54443:70b] Unlimited access to network resources
+2014-05-04 20:04:06.557 WoundApp[54443:70b] Resetting plugins due to page load.
+2014-05-04 20:04:06.981 WoundApp[54443:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 20:04:07.131 WoundApp[54443:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 20:04:07.132 WoundApp[54443:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin502788053",
+  "PhoneGapSpeechPlugin",
+  "initSpeechKit",
+  [
+    "Credentials",
+    "sandbox.nmdp.nuancemobility.net",
+    443,
+    false
+  ]
+]
+2014-05-04 20:04:07.133 WoundApp[54443:70b] Before init Im here
+2014-05-04 20:04:18.313 WoundApp[54443:70b] Before startRecognition
+2014-05-04 20:04:18.314 WoundApp[54443:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 20:04:18.315 WoundApp[54443:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin502788054",
+  "PhoneGapSpeechPlugin",
+  "startRecognition",
+  [
+    "dictation",
+    "en_us"
+  ]
+]
+2014-05-04 20:04:18.315 WoundApp[54443:70b] After startRecognition
+2014-05-04 20:04:24.396 WoundApp[54443:70b] in the takePicture
+2014-05-04 20:04:24.397 WoundApp[54443:70b] Camera.getPicture: source type 1 not available.
+2014-05-04 20:04:28.240 WoundApp[54443:70b] THREAD WARNING: ['Camera'] took '3843.085938' ms. Plugin should use a background thread.
+2014-05-04 20:16:30.776 WoundApp[55109:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 20:16:30.788 WoundApp[55109:70b] Unlimited access to network resources
+2014-05-04 20:16:30.947 WoundApp[55109:70b] Resetting plugins due to page load.
+2014-05-04 20:16:31.464 WoundApp[55109:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 20:16:31.597 WoundApp[55109:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 20:16:31.597 WoundApp[55109:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin1875851059",
+  "PhoneGapSpeechPlugin",
+  "initSpeechKit",
+  [
+    "Credentials",
+    "sandbox.nmdp.nuancemobility.net",
+    443,
+    false
+  ]
+]
+2014-05-04 20:16:31.598 WoundApp[55109:70b] Before init Im here
+2014-05-04 20:16:50.657 WoundApp[55109:70b] Before startRecognition
+2014-05-04 20:16:50.658 WoundApp[55109:70b] ERROR: Plugin 'PhoneGapSpeechPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-05-04 20:16:50.660 WoundApp[55109:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "PhoneGapSpeechPlugin1875851060",
+  "PhoneGapSpeechPlugin",
+  "startRecognition",
+  [
+    "dictation",
+    "en_us"
+  ]
+]
+2014-05-04 20:16:50.660 WoundApp[55109:70b] After startRecognition
+2014-05-04 22:58:13.282 WoundApp[60416:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:58:13.302 WoundApp[60416:70b] Unlimited access to network resources
+2014-05-04 22:58:13.517 WoundApp[60416:70b] Resetting plugins due to page load.
+2014-05-04 22:58:14.165 WoundApp[60416:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 22:58:14.455 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-04 22:58:14.456 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin1632657123].
+2014-05-04 22:58:14.457 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-04 22:58:14.458 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-04 22:58:14.458 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-04 22:58:14.459 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-04 22:58:14.460 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-04 22:58:14.461 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-04 22:58:14.462 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-04 22:58:14.463 WoundApp[60416:70b] set session Active 0
+2014-05-04 22:58:14.464 WoundApp[60416:70b] sample rate = 44100.000000
+2014-05-04 22:58:14.464 WoundApp[60416:70b] audiosource = AudoSourceSimulator
+2014-05-04 22:58:14.469 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-04 22:58:14.470 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-04 22:58:14.471 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-04 22:58:14.472 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-04 22:58:14.472 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-04 22:58:14.473 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-04 22:58:14.474 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 22:58:14.474 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 22:58:14.475 WoundApp[60416:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 22:58:14.475 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 22:58:14.476 WoundApp[60416:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 22:58:14.477 WoundApp[60416:70b] DBG IT: maybeInitAS:481
+2014-05-04 22:58:14.478 WoundApp[60416:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-04 22:58:14.476 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-04 22:58:14.479 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-04 22:58:14.482 WoundApp[60416:70b] release audio session 1
+2014-05-04 22:58:14.483 WoundApp[60416:590b] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-04 22:58:14.485 WoundApp[60416:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-04 22:58:14.486 WoundApp[60416:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '30.767090' ms. Plugin should use a background thread.
+2014-05-04 22:58:14.487 WoundApp[60416:70b] Before init Im here
+2014-05-04 22:58:14.624 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:14.625 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-04 22:58:14.625 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:14.626 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:14.626 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-04 22:58:14.627 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:14.679 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-04 22:58:14.680 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-04 22:58:14.680 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-04 22:58:14.681 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:14.681 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-04 22:58:14.682 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:17.274 WoundApp[60416:70b] Before startRecognition
+2014-05-04 22:58:17.275 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [7caf5b50-a14f-4575-a57a-b52f215f38a6]
+2014-05-04 22:58:17.276 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1632657124].
+2014-05-04 22:58:17.276 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-04 22:58:17.277 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-04 22:58:17.277 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-04 22:58:17.278 WoundApp[60416:70b] set session Active 0
+2014-05-04 22:58:17.278 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:17.279 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.279 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.280 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.280 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.281 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.281 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.282 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:17.282 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.283 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.283 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.284 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.289 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.290 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.290 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.291 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.291 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.292 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.292 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.293 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.293 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.294 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.294 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.295 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.295 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.296 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.296 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:17.296 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:17.297 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-04 22:58:17.298 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-04 22:58:17.298 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-04 22:58:17.298 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:17.298 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-04 22:58:17.299 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-04 22:58:17.299 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-04 22:58:17.300 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-04 22:58:17.300 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:17.301 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-04 22:58:17.301 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-04 22:58:17.301 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:17.301 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:17.302 WoundApp[60416:70b] [NMSP_DEBUG] Stop on end of speech is activated.
+2014-05-04 22:58:17.302 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:17.302 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-04 22:58:17.302 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:17.303 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-04 22:58:17.303 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-04 22:58:17.304 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:17.304 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:17.304 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:17.304 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (109 bytes)  
+2014-05-04 22:58:17.305 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:17.306 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:17.306 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:17.307 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-04 22:58:17.307 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-04 22:58:17.307 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-04 22:58:17.308 WoundApp[60416:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '32.933105' ms. Plugin should use a background thread.
+2014-05-04 22:58:17.308 WoundApp[60416:590b] DBG IT: nmsp_vst_oem_audio_startRecording:981
+2014-05-04 22:58:17.309 WoundApp[60416:590b] [NMSP_DEBUG] vst_oem_audio_startRecording
+2014-05-04 22:58:17.366 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStart enter
+2014-05-04 22:58:17.424 WoundApp[60416:70b] After startRecognition
+2014-05-04 22:58:18.715 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStart exit
+2014-05-04 22:58:18.716 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:18.716 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidBeginRecording: Entered method. Recording started. [PhoneGapSpeechPlugin1632657124]
+2014-05-04 22:58:18.717 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:18.717 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidBeginRecording: Leaving method.
+2014-05-04 22:58:18.717 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:18.718 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (14 bytes)  
+2014-05-04 22:58:18.718 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (84 bytes)  
+2014-05-04 22:58:18.719 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (37 bytes)  
+2014-05-04 22:58:18.719 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:18.726 WoundApp[60416:7d0f] [NMSP_DEBUG] Encoder: Encoding started.
+2014-05-04 22:58:18.985 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:18.985 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:18.986 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:18.987 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:19.228 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:19.229 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:19.230 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:19.231 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:19.518 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:19.519 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:19.519 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (841 bytes)  
+2014-05-04 22:58:19.520 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:19.763 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:19.763 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:19.764 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:19.765 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:20.261 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:20.262 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:20.262 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (831 bytes)  
+2014-05-04 22:58:20.263 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:20.505 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:20.506 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:20.506 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:20.506 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:20.866 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:20.866 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:20.867 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (814 bytes)  
+2014-05-04 22:58:20.867 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:21.098 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:21.099 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:21.100 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:21.100 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:21.341 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:21.342 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:21.342 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:21.343 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:21.585 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:21.585 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:21.585 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:21.586 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:21.828 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:21.829 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:21.829 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:21.830 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:22.061 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:22.062 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:22.062 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (808 bytes)  
+2014-05-04 22:58:22.062 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:22.305 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:22.305 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:22.306 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:22.306 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:22.549 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:22.550 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:22.550 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:22.551 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:22.781 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:22.781 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:22.781 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:22.782 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:23.025 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:23.026 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.026 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:23.027 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:23.270 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-04 22:58:23.270 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.271 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-04 22:58:23.272 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:23.389 WoundApp[60416:70b] Before startRecognition
+2014-05-04 22:58:23.390 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [7caf5b50-a14f-4575-a57a-b52f215f38a6]
+2014-05-04 22:58:23.390 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1632657125].
+2014-05-04 22:58:23.391 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-04 22:58:23.391 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-04 22:58:23.392 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-04 22:58:23.392 WoundApp[60416:70b] set session Active 0
+2014-05-04 22:58:23.393 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:23.393 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.394 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.394 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.395 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.395 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.396 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.396 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:23.397 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.397 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.398 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.398 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.400 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.401 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.401 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.402 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.402 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.402 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.403 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.403 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.404 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.404 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.405 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.405 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.406 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.406 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.407 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.407 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.408 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-04 22:58:23.408 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-04 22:58:23.408 WoundApp[60416:590b] [NMSP_DEBUG] cplCopyCommand.
+2014-05-04 22:58:23.409 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:23.409 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-04 22:58:23.409 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-04 22:58:23.410 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-04 22:58:23.410 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-04 22:58:23.410 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-04 22:58:23.410 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-04 22:58:23.411 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.411 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:23.411 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-04 22:58:23.411 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-04 22:58:23.412 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_getOpenSocketTime()
+2014-05-04 22:58:23.412 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-04 22:58:23.413 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_getConnectionEstablishedTime()
+2014-05-04 22:58:23.413 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:23.414 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:23.414 WoundApp[60416:590b] [NMSP_DEBUG] CPL_LOG <sp><rid>0</rid><gwlog p="CLIENT_CONNECTION_ESTABLISHED" v="1"/><gwlog p="CLIENT_REQUEST_ABORTED_NMDP_ASR_CMD" v="2"/></sp>
+2014-05-04 22:58:23.417 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-04 22:58:23.417 WoundApp[60416:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '27.164062' ms. Plugin should use a background thread.
+2014-05-04 22:58:23.416 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 2.
+2014-05-04 22:58:23.418 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:23.418 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_SET_PARAMS.
+2014-05-04 22:58:23.418 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_stop().
+2014-05-04 22:58:23.419 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:23.419 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:23.420 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidFinishRecording: Entered method. Recording finished. [PhoneGapSpeechPlugin1632657125]
+2014-05-04 22:58:23.421 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidFinishRecording: Leaving method.
+2014-05-04 22:58:23.421 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value().
+2014-05-04 22:58:23.422 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value() key not found.
+2014-05-04 22:58:23.419 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.422 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value().
+2014-05-04 22:58:23.423 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value() key not found.
+2014-05-04 22:58:23.425 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_delete().
+2014-05-04 22:58:23.423 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:23.425 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 22:58:23.425 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:23.426 WoundApp[60416:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 22:58:23.426 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.427 WoundApp[60416:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 22:58:23.427 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-04 22:58:23.427 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-04 22:58:23.428 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.428 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_destroy().
+2014-05-04 22:58:23.428 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-04 22:58:23.428 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:23.431 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:23.431 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.432 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-04 22:58:23.432 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (167 bytes)  
+2014-05-04 22:58:23.433 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-04 22:58:23.433 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:23.433 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:23.434 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:23.434 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderStopRecording().
+2014-05-04 22:58:23.435 WoundApp[60416:590b] DBG IT: nmsp_vst_oem_audio_stopRecording:1177
+2014-05-04 22:58:23.435 WoundApp[60416:590b] [NMSP_DEBUG] vst_oem_audio_stopRecording
+2014-05-04 22:58:23.436 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStop enter
+2014-05-04 22:58:23.437 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStop exit 0
+2014-05-04 22:58:23.437 WoundApp[60416:590b] [NMSP_DEBUG] vst_oem_audio_stopRecording:  recorded 75418 samples
+2014-05-04 22:58:23.438 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderDelete().
+2014-05-04 22:58:23.438 WoundApp[60416:7d0f] [NMSP_DEBUG] Encoder: Encoding finished. 75418 (235) 75418 (235) 235 -- 150836 (471) 150836 (471)
+2014-05-04 22:58:23.438 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Entered method. Got error. [PhoneGapSpeechPlugin1632657125]
+2014-05-04 22:58:23.440 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Session id [7caf5b50-a14f-4575-a57a-b52f215f38a6].
+2014-05-04 22:58:23.438 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (109 bytes)  
+2014-05-04 22:58:23.441 WoundApp[60416:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Leaving method
+2014-05-04 22:58:23.442 WoundApp[60416:70b] After startRecognition
+2014-05-04 22:58:23.442 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (14 bytes)  
+2014-05-04 22:58:23.444 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (84 bytes)  
+2014-05-04 22:58:23.444 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (37 bytes)  
+2014-05-04 22:58:23.438 WoundApp[60416:7d0f] [NMSP_DEBUG] Encoder: mqueue high water mark 1
+2014-05-04 22:58:23.445 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:23.445 WoundApp[60416:590b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 22:58:23.446 WoundApp[60416:7d0f] [NMSP_DEBUG] inputStoppedEvtHndlr
+2014-05-04 22:58:23.447 WoundApp[60416:590b] [NMSP_DEBUG] stopRecording_msgHandler().
+2014-05-04 22:58:23.447 WoundApp[60416:70b] release audio session 1
+2014-05-04 22:58:23.447 WoundApp[60416:590b] [NMSP_DEBUG] deleteRecorder()
+2014-05-04 22:58:33.940 WoundApp[60416:70b] Before startRecognition
+2014-05-04 22:58:33.940 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [7caf5b50-a14f-4575-a57a-b52f215f38a6]
+2014-05-04 22:58:33.941 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1632657126].
+2014-05-04 22:58:33.941 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-04 22:58:33.942 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-04 22:58:33.942 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-04 22:58:33.943 WoundApp[60416:70b] set session Active 0
+2014-05-04 22:58:33.943 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:33.944 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.944 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.945 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.945 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.946 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.946 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.947 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:33.947 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.948 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.948 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.949 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.951 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.951 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.952 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.952 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.953 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.953 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.954 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.954 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.955 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.955 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.956 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.956 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.957 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.957 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.958 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.958 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.959 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-04 22:58:33.959 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-04 22:58:33.959 WoundApp[60416:590b] [NMSP_DEBUG] cplCopyCommand.
+2014-05-04 22:58:33.960 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:33.960 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-04 22:58:33.960 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-04 22:58:33.961 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-04 22:58:33.961 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-04 22:58:33.961 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-04 22:58:33.961 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-04 22:58:33.962 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.962 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-04 22:58:33.962 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-04 22:58:33.962 WoundApp[60416:70b] [NMSP_DEBUG] Stop on end of speech is activated.
+2014-05-04 22:58:33.963 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-04 22:58:33.964 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-04 22:58:33.964 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:33.965 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-04 22:58:33.963 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_getOpenSocketTime()
+2014-05-04 22:58:33.965 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_getConnectionEstablishedTime()
+2014-05-04 22:58:33.966 WoundApp[60416:590b] [NMSP_DEBUG] CPL_LOG <sp><rid>0</rid><gwlog p="CLIENT_CONNECTION_ESTABLISHED" v="1"/><gwlog p="CLIENT_REQUEST_ABORTED_NMDP_ASR_CMD" v="2"/></sp>
+2014-05-04 22:58:33.966 WoundApp[60416:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-04 22:58:33.966 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 2.
+2014-05-04 22:58:33.967 WoundApp[60416:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '26.412109' ms. Plugin should use a background thread.
+2014-05-04 22:58:33.967 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_SET_PARAMS.
+2014-05-04 22:58:33.968 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-04 22:58:33.968 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.968 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_stop().
+2014-05-04 22:58:33.968 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:33.969 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-04 22:58:33.970 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-04 22:58:33.970 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value().
+2014-05-04 22:58:33.971 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value() key not found.
+2014-05-04 22:58:33.971 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value().
+2014-05-04 22:58:33.972 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value() key not found.
+2014-05-04 22:58:33.972 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_delete().
+2014-05-04 22:58:33.973 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 22:58:33.973 WoundApp[60416:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 22:58:33.974 WoundApp[60416:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 22:58:33.969 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:33.974 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-04 22:58:33.975 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_nmas_command_destroy().
+2014-05-04 22:58:33.975 WoundApp[60416:70b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-04 22:58:33.975 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.976 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-04 22:58:33.977 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.977 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:33.978 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:33.978 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.979 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-04 22:58:33.979 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (172 bytes)  
+2014-05-04 22:58:33.980 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-04 22:58:33.980 WoundApp[60416:590b] DBG IT: nmsp_vst_oem_audio_startRecording:981
+2014-05-04 22:58:33.981 WoundApp[60416:590b] [NMSP_DEBUG] vst_oem_audio_startRecording
+2014-05-04 22:58:33.981 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStart enter
+2014-05-04 22:58:33.983 WoundApp[60416:7d0f] [NMSP_DEBUG] Encoder: Encoding started.
+2014-05-04 22:58:33.982 WoundApp[60416:590b] [NMSP_DEBUG] AudioOutputUnitStart exit
+2014-05-04 22:58:33.983 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-04 22:58:33.984 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-04 22:58:33.984 WoundApp[60416:590b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 22:58:33.985 WoundApp[60416:590b] [NMSP_DEBUG] handleRecorderStopRecording().
+2014-05-04 23:35:47.050 WoundApp[60792:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:35:47.063 WoundApp[60792:70b] Unlimited access to network resources
+2014-05-04 23:35:47.252 WoundApp[60792:70b] Resetting plugins due to page load.
+2014-05-04 23:35:47.751 WoundApp[60792:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 23:35:48.098 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-04 23:35:48.099 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin30640692].
+2014-05-04 23:35:48.099 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-04 23:35:48.100 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-04 23:35:48.100 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-04 23:35:48.101 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-04 23:35:48.101 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-04 23:35:48.102 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-04 23:35:48.103 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-04 23:35:48.103 WoundApp[60792:70b] set session Active 0
+2014-05-04 23:35:48.104 WoundApp[60792:70b] sample rate = 44100.000000
+2014-05-04 23:35:48.104 WoundApp[60792:70b] audiosource = AudoSourceSimulator
+2014-05-04 23:35:48.107 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-04 23:35:48.108 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-04 23:35:48.108 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-04 23:35:48.109 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-04 23:35:48.110 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-04 23:35:48.110 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-04 23:35:48.111 WoundApp[60792:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 23:35:48.111 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:35:48.111 WoundApp[60792:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 23:35:48.111 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:35:48.112 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-04 23:35:48.112 WoundApp[60792:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 23:35:48.113 WoundApp[60792:70b] DBG IT: maybeInitAS:481
+2014-05-04 23:35:48.113 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-04 23:35:48.114 WoundApp[60792:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-04 23:35:48.117 WoundApp[60792:70b] release audio session 1
+2014-05-04 23:35:48.118 WoundApp[60792:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-04 23:35:48.118 WoundApp[60792:5547] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-04 23:35:48.119 WoundApp[60792:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '20.670898' ms. Plugin should use a background thread.
+2014-05-04 23:35:48.120 WoundApp[60792:70b] Before init Im here
+2014-05-04 23:35:48.222 WoundApp[60792:5547] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:35:48.223 WoundApp[60792:5547] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-04 23:35:48.223 WoundApp[60792:5547] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:35:48.223 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:35:48.224 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-04 23:35:48.224 WoundApp[60792:5547] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:35:48.297 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-04 23:35:48.298 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-04 23:35:48.298 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-04 23:35:48.299 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:35:48.299 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-04 23:35:48.299 WoundApp[60792:5547] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:36:33.301 WoundApp[60792:5547] [NMSP_ERROR] Session idle for too long timer fired, disconnecting.
+2014-05-04 23:36:33.302 WoundApp[60792:5547] [NMSP_DEBUG] handleCloseSocket()
+2014-05-04 23:36:33.302 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_vst_oem_network_closeSocket() closed!
+2014-05-04 23:36:33.303 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_SESSION_IDLE_FOR_TOO_LONG
+2014-05-04 23:36:33.304 WoundApp[60792:5547] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_DISCONNECTED
+2014-05-04 23:36:33.305 WoundApp[60792:5547] [NMSP_DEBUG] handleCloseConnection()
+2014-05-04 23:36:33.305 WoundApp[60792:5547] [NMSP_DEBUG] close data connection encountered b54cf04!
+2014-05-04 23:37:14.775 WoundApp[61001:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:37:14.784 WoundApp[61001:70b] Unlimited access to network resources
+2014-05-04 23:37:14.853 WoundApp[61001:70b] Resetting plugins due to page load.
+2014-05-04 23:37:15.090 WoundApp[61001:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 23:37:15.204 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-04 23:37:15.205 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin100927479].
+2014-05-04 23:37:15.205 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-04 23:37:15.206 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-04 23:37:15.206 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-04 23:37:15.207 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-04 23:37:15.207 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-04 23:37:15.208 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-04 23:37:15.208 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-04 23:37:15.209 WoundApp[61001:70b] set session Active 0
+2014-05-04 23:37:15.209 WoundApp[61001:70b] sample rate = 44100.000000
+2014-05-04 23:37:15.210 WoundApp[61001:70b] audiosource = AudoSourceSimulator
+2014-05-04 23:37:15.212 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-04 23:37:15.213 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-04 23:37:15.213 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-04 23:37:15.214 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-04 23:37:15.214 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-04 23:37:15.215 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-04 23:37:15.215 WoundApp[61001:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 23:37:15.215 WoundApp[61001:347] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:37:15.216 WoundApp[61001:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 23:37:15.216 WoundApp[61001:347] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:37:15.216 WoundApp[61001:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 23:37:15.216 WoundApp[61001:347] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-04 23:37:15.217 WoundApp[61001:70b] DBG IT: maybeInitAS:481
+2014-05-04 23:37:15.217 WoundApp[61001:347] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-04 23:37:15.218 WoundApp[61001:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-04 23:37:15.219 WoundApp[61001:347] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-04 23:37:15.221 WoundApp[61001:70b] release audio session 1
+2014-05-04 23:37:15.222 WoundApp[61001:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-04 23:37:15.222 WoundApp[61001:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '17.771973' ms. Plugin should use a background thread.
+2014-05-04 23:37:15.223 WoundApp[61001:70b] Before init Im here
+2014-05-04 23:37:15.335 WoundApp[61001:347] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:37:15.335 WoundApp[61001:347] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-04 23:37:15.335 WoundApp[61001:347] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:37:15.336 WoundApp[61001:347] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:37:15.336 WoundApp[61001:347] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-04 23:37:15.336 WoundApp[61001:347] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:37:15.402 WoundApp[61001:347] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-04 23:37:15.403 WoundApp[61001:347] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-04 23:37:15.404 WoundApp[61001:347] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-04 23:37:15.404 WoundApp[61001:347] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:37:15.405 WoundApp[61001:347] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-04 23:37:15.405 WoundApp[61001:347] [NMSP_DEBUG] writeCallBack encountered!
+Terminating in response to SpringBoard's termination.
+makeFullPathname /Users/alan/Library/Application Support/iPhone Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/Library/Application Support/vst_dns_cache.dat 
+ 2014-05-04 23:38:05.418 WoundApp[61142:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:38:05.431 WoundApp[61142:70b] Unlimited access to network resources
+2014-05-04 23:38:05.589 WoundApp[61142:70b] Resetting plugins due to page load.
+2014-05-04 23:38:06.053 WoundApp[61142:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-04 23:38:06.316 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-04 23:38:06.316 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin3705601].
+2014-05-04 23:38:06.317 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-04 23:38:06.317 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-04 23:38:06.318 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-04 23:38:06.318 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-04 23:38:06.319 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-04 23:38:06.319 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-04 23:38:06.320 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-04 23:38:06.321 WoundApp[61142:70b] set session Active 0
+2014-05-04 23:38:06.321 WoundApp[61142:70b] sample rate = 44100.000000
+2014-05-04 23:38:06.322 WoundApp[61142:70b] audiosource = AudoSourceSimulator
+2014-05-04 23:38:06.325 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-04 23:38:06.325 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-04 23:38:06.326 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-04 23:38:06.327 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-04 23:38:06.328 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-04 23:38:06.328 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-04 23:38:06.329 WoundApp[61142:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-04 23:38:06.329 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:38:06.329 WoundApp[61142:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-04 23:38:06.329 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-04 23:38:06.330 WoundApp[61142:70b] DBG IT: oemAudioInitialize:449
+2014-05-04 23:38:06.330 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-04 23:38:06.331 WoundApp[61142:70b] DBG IT: maybeInitAS:481
+2014-05-04 23:38:06.331 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-04 23:38:06.332 WoundApp[61142:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-04 23:38:06.334 WoundApp[61142:4147] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-04 23:38:06.335 WoundApp[61142:70b] release audio session 1
+2014-05-04 23:38:06.336 WoundApp[61142:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-04 23:38:06.337 WoundApp[61142:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '21.123047' ms. Plugin should use a background thread.
+2014-05-04 23:38:06.337 WoundApp[61142:70b] Before init Im here
+2014-05-04 23:38:06.400 WoundApp[61142:4147] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:38:06.401 WoundApp[61142:4147] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-04 23:38:06.401 WoundApp[61142:4147] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:38:06.402 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:38:06.402 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-04 23:38:06.402 WoundApp[61142:4147] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-04 23:38:06.459 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-04 23:38:06.460 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-04 23:38:06.460 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-04 23:38:06.460 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-04 23:38:06.461 WoundApp[61142:4147] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-04 23:38:06.461 WoundApp[61142:4147] [NMSP_DEBUG] writeCallBack encountered!
+Terminating in response to SpringBoard's termination.
+makeFullPathname /Users/alan/Library/Application Support/iPhone Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/Library/Application Support/vst_dns_cache.dat 
+ 2014-05-05 08:15:24.924 WoundApp[61455:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-05 08:15:24.956 WoundApp[61455:70b] Unlimited access to network resources
+2014-05-05 08:15:25.103 WoundApp[61455:70b] Resetting plugins due to page load.
+2014-05-05 08:15:25.691 WoundApp[61455:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-05 08:15:25.887 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-05 08:15:25.887 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin426766947].
+2014-05-05 08:15:25.888 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-05 08:15:25.888 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-05 08:15:25.889 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-05 08:15:25.889 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-05 08:15:25.890 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-05 08:15:25.891 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-05 08:15:25.891 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-05 08:15:25.892 WoundApp[61455:70b] set session Active 0
+2014-05-05 08:15:25.893 WoundApp[61455:70b] sample rate = 44100.000000
+2014-05-05 08:15:25.893 WoundApp[61455:70b] audiosource = AudoSourceSimulator
+2014-05-05 08:15:25.897 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-05 08:15:25.898 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-05 08:15:25.898 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-05 08:15:25.899 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-05 08:15:25.900 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-05 08:15:25.900 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-05 08:15:25.901 WoundApp[61455:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-05 08:15:25.901 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-05 08:15:25.902 WoundApp[61455:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-05 08:15:25.902 WoundApp[61455:70b] DBG IT: oemAudioInitialize:449
+2014-05-05 08:15:25.902 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-05 08:15:25.903 WoundApp[61455:70b] DBG IT: maybeInitAS:481
+2014-05-05 08:15:25.903 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-05 08:15:25.904 WoundApp[61455:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-05 08:15:25.904 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-05 08:15:25.908 WoundApp[61455:423b] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-05 08:15:25.927 WoundApp[61455:70b] release audio session 1
+2014-05-05 08:15:25.929 WoundApp[61455:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-05 08:15:25.929 WoundApp[61455:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '42.677979' ms. Plugin should use a background thread.
+2014-05-05 08:15:25.930 WoundApp[61455:70b] Before init Im here
+2014-05-05 08:15:26.178 WoundApp[61455:423b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:15:26.179 WoundApp[61455:423b] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-05 08:15:26.179 WoundApp[61455:423b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:15:26.180 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:15:26.180 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-05 08:15:26.181 WoundApp[61455:423b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:15:26.255 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-05 08:15:26.255 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-05 08:15:26.256 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-05 08:15:26.256 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:15:26.256 WoundApp[61455:423b] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-05 08:15:26.257 WoundApp[61455:423b] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:33.025 WoundApp[63162:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-05 08:33:33.041 WoundApp[63162:70b] Unlimited access to network resources
+2014-05-05 08:33:33.215 WoundApp[63162:70b] Resetting plugins due to page load.
+2014-05-05 08:33:33.729 WoundApp[63162:70b] Finished load of: file:///Users/alan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/565622C9-081F-4795-AFEA-F6ADD37E1DEB/WoundApp.app/www/index.html
+2014-05-05 08:33:33.922 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: Entered method.
+2014-05-05 08:33:33.923 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: Callback id [PhoneGapSpeechPlugin1356691036].
+2014-05-05 08:33:33.924 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: credentialClassName [Credentials].
+2014-05-05 08:33:33.925 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: serverName [sandbox.nmdp.nuancemobility.net].
+2014-05-05 08:33:33.925 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: port [443].
+2014-05-05 08:33:33.926 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: enableSSL [0].
+2014-05-05 08:33:33.926 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class loaded.
+2014-05-05 08:33:33.927 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: Credentials class intialized.
+2014-05-05 08:33:33.929 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: app id [NMDPTRIAL_ahaikal20130531194959].
+2014-05-05 08:33:33.930 WoundApp[63162:70b] set session Active 0
+2014-05-05 08:33:33.931 WoundApp[63162:70b] sample rate = 44100.000000
+2014-05-05 08:33:33.931 WoundApp[63162:70b] audiosource = AudoSourceSimulator
+2014-05-05 08:33:33.935 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_manager_create().
+2014-05-05 08:33:33.935 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_session_create().
+2014-05-05 08:33:33.936 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_core_xmode_create()
+2014-05-05 08:33:33.937 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_resource_create().
+2014-05-05 08:33:33.938 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_resource_create().
+2014-05-05 08:33:33.938 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_resource_loadResource().
+2014-05-05 08:33:33.939 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-05 08:33:33.939 WoundApp[63162:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-05 08:33:33.940 WoundApp[63162:70b] DBG IT: oemAudioInitialize:449
+2014-05-05 08:33:33.940 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-05 08:33:33.941 WoundApp[63162:70b] DBG IT: maybeInitAS:481
+2014-05-05 08:33:33.941 WoundApp[63162:70b] [NMSP_ERROR] check status Error: 696e6974 init -> line: 485
+2014-05-05 08:33:33.941 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_getState: 0
+2014-05-05 08:33:33.942 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_connect()
+2014-05-05 08:33:33.943 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_connect() sandbox.nmdp.nuancemobility.net:443
+2014-05-05 08:33:33.945 WoundApp[63162:70b] release audio session 1
+2014-05-05 08:33:33.946 WoundApp[63162:5613] [NMSP_DEBUG] open data connection encountered 0!
+2014-05-05 08:33:33.946 WoundApp[63162:70b] PhoneGapSpeechPlugin.initSpeechKit: Leaving method.
+2014-05-05 08:33:33.947 WoundApp[63162:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '24.596924' ms. Plugin should use a background thread.
+2014-05-05 08:33:33.947 WoundApp[63162:70b] Before init Im here
+2014-05-05 08:33:34.095 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:34.095 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack() Open socket callback received!  socketnum=1857652
+2014-05-05 08:33:34.096 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:34.096 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:34.097 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (213 bytes)  
+2014-05-05 08:33:34.097 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:34.169 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_xmode_eventCB() NMSP_COMP_CORE_XMODE_CONNECTED 
+2014-05-05 08:33:34.170 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_manager_session_eventCB() NMSP_SESSION_CONNECTED
+2014-05-05 08:33:34.170 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_msgqueue_execute()
+2014-05-05 08:33:34.171 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:34.171 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (32 bytes)  
+2014-05-05 08:33:34.171 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:36.175 WoundApp[63162:70b] Before startRecognition
+2014-05-05 08:33:36.175 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [ed9f1ecf-5995-4dfb-a3bc-8dafd671e963]
+2014-05-05 08:33:36.176 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1356691037].
+2014-05-05 08:33:36.176 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-05 08:33:36.176 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-05 08:33:36.177 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-05 08:33:36.177 WoundApp[63162:70b] set session Active 0
+2014-05-05 08:33:36.177 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:36.178 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.178 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.178 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.179 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.179 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.179 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.180 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:36.180 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.180 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.181 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.181 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.187 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.187 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.187 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.188 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.188 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.188 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.189 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.189 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.189 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.190 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.190 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.190 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.191 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.191 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.191 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:36.192 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:36.192 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-05 08:33:36.193 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-05 08:33:36.193 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:36.193 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-05 08:33:36.194 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-05 08:33:36.194 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-05 08:33:36.194 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:36.195 WoundApp[63162:70b] [NMSP_DEBUG] Stop on end of speech is activated.
+2014-05-05 08:33:36.193 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-05 08:33:36.195 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-05 08:33:36.197 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-05 08:33:36.197 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:36.198 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:36.195 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-05 08:33:36.200 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-05 08:33:36.200 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-05 08:33:36.200 WoundApp[63162:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '24.868896' ms. Plugin should use a background thread.
+2014-05-05 08:33:36.202 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:36.202 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-05 08:33:36.202 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:36.203 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:36.203 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:36.203 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-05 08:33:36.204 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:36.204 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:36.204 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:36.205 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:36.205 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-05 08:33:36.205 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-05 08:33:36.206 WoundApp[63162:5613] DBG IT: nmsp_vst_oem_audio_startRecording:981
+2014-05-05 08:33:36.206 WoundApp[63162:5613] [NMSP_DEBUG] vst_oem_audio_startRecording
+2014-05-05 08:33:36.277 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStart enter
+2014-05-05 08:33:36.293 WoundApp[63162:70b] After startRecognition
+2014-05-05 08:33:37.634 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStart exit
+2014-05-05 08:33:37.634 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:37.634 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidBeginRecording: Entered method. Recording started. [PhoneGapSpeechPlugin1356691037]
+2014-05-05 08:33:37.635 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:37.635 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidBeginRecording: Leaving method.
+2014-05-05 08:33:37.635 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:37.635 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (109 bytes)  
+2014-05-05 08:33:37.636 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (14 bytes)  
+2014-05-05 08:33:37.636 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (84 bytes)  
+2014-05-05 08:33:37.636 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (37 bytes)  
+2014-05-05 08:33:37.637 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:37.638 WoundApp[63162:7e0b] [NMSP_DEBUG] Encoder: Encoding started.
+2014-05-05 08:33:37.895 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:37.896 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:37.896 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:37.897 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:38.140 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:38.140 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:38.141 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:38.141 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:38.373 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:38.373 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:38.374 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:38.374 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:38.534 WoundApp[63162:7e0b] [NMSP_DEBUG] Speech detected.
+2014-05-05 08:33:38.535 WoundApp[63162:7e0b] [NMSP_DEBUG] Received VST_OEM_AUDIO_DETECT_UTT_START
+2014-05-05 08:33:38.557 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.569 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.594 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.616 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.616 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:38.616 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:38.617 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:38.617 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:38.639 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.650 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.674 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.697 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:38.720 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.731 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.755 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.778 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.790 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.814 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.836 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.860 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.860 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:38.860 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:38.861 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:38.861 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:38.871 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.894 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.917 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:38.929 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 17 / 669770
+2014-05-05 08:33:38.952 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 18 / 669770
+2014-05-05 08:33:38.976 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 19 / 669770
+2014-05-05 08:33:38.999 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 20 / 669770
+2014-05-05 08:33:39.010 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 21 / 669770
+2014-05-05 08:33:39.034 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 22 / 669770
+2014-05-05 08:33:39.057 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.081 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.092 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.092 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:39.093 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:39.093 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:39.093 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:39.115 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.138 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.150 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.173 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.196 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.219 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.231 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.254 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.277 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.289 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.312 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.335 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.335 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:39.336 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:39.336 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:39.336 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:39.359 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.371 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 23 / 669770
+2014-05-05 08:33:39.393 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 22 / 669770
+2014-05-05 08:33:39.417 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 21 / 669770
+2014-05-05 08:33:39.441 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 20 / 669770
+2014-05-05 08:33:39.453 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 19 / 669770
+2014-05-05 08:33:39.475 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 18 / 669770
+2014-05-05 08:33:39.498 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 17 / 669770
+2014-05-05 08:33:39.511 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 16 / 669770
+2014-05-05 08:33:39.533 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 15 / 669770
+2014-05-05 08:33:39.556 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.581 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.582 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:39.582 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:39.583 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:39.583 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:39.590 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.613 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.637 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.648 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.671 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.694 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 14 / 669770
+2014-05-05 08:33:39.718 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 13 / 669770
+2014-05-05 08:33:39.729 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 12 / 669770
+2014-05-05 08:33:39.752 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 11 / 669770
+2014-05-05 08:33:39.776 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 10 / 669770
+2014-05-05 08:33:39.798 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 9 / 669770
+2014-05-05 08:33:39.810 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 8 / 669770
+2014-05-05 08:33:39.834 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 7 / 669770
+2014-05-05 08:33:39.857 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 7 / 669770
+2014-05-05 08:33:39.869 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 7 / 669770
+2014-05-05 08:33:39.892 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 7 / 669770
+2014-05-05 08:33:39.915 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 7 / 669770
+2014-05-05 08:33:39.938 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 6 / 669770
+2014-05-05 08:33:39.950 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 5 / 669770
+2014-05-05 08:33:39.974 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 4 / 669770
+2014-05-05 08:33:39.974 WoundApp[63162:7e0b] [NMSP_DEBUG] Speech complete.
+2014-05-05 08:33:39.997 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:40.011 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:40.032 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:40.055 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:40.079 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 1 / 669731
+2014-05-05 08:33:40.090 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 2 / 669731
+2014-05-05 08:33:40.113 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 3 / 669731
+2014-05-05 08:33:40.114 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:40.114 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:40.114 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (853 bytes)  
+2014-05-05 08:33:40.114 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:40.137 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 4 / 669731
+2014-05-05 08:33:40.159 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.171 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.194 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.218 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.229 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.254 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:40.277 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 6 / 669731
+2014-05-05 08:33:40.299 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 7 / 669731
+2014-05-05 08:33:40.312 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 8 / 669731
+2014-05-05 08:33:40.312 WoundApp[63162:7e0b] [NMSP_DEBUG] Speech detected.
+2014-05-05 08:33:40.312 WoundApp[63162:7e0b] [NMSP_DEBUG] Received VST_OEM_AUDIO_DETECT_UTT_START
+2014-05-05 08:33:40.333 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:40.357 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.357 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:40.358 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:40.358 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:40.358 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:40.381 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.392 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.416 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.438 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.450 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.474 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.497 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.521 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.532 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.555 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.578 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.589 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.589 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:40.590 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:40.590 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:40.590 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:40.612 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.636 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.659 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.672 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.694 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.718 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.740 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.751 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.775 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.798 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.809 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.833 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.833 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:40.833 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:40.834 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:40.834 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:40.857 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.881 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.891 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.915 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.938 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.949 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.972 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:40.996 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:41.019 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:41.030 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:41.053 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:41.077 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.077 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:41.078 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:41.078 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:41.078 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:41.101 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 8 / 669770
+2014-05-05 08:33:41.112 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 7 / 669770
+2014-05-05 08:33:41.135 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 6 / 669770
+2014-05-05 08:33:41.158 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.170 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.193 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.216 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.240 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.251 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 5 / 669770
+2014-05-05 08:33:41.274 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 4 / 669770
+2014-05-05 08:33:41.297 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 3 / 669770
+2014-05-05 08:33:41.309 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 2 / 669770
+2014-05-05 08:33:41.309 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:41.309 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:41.309 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:41.310 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:41.333 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for end: 1 / 669770
+2014-05-05 08:33:41.334 WoundApp[63162:7e0b] [NMSP_DEBUG] Speech complete.
+2014-05-05 08:33:41.356 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:41.379 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 0 / 669731
+2014-05-05 08:33:41.390 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 1 / 669731
+2014-05-05 08:33:41.415 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 2 / 669731
+2014-05-05 08:33:41.438 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 3 / 669731
+2014-05-05 08:33:41.461 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 4 / 669731
+2014-05-05 08:33:41.473 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 5 / 669731
+2014-05-05 08:33:41.496 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 6 / 669731
+2014-05-05 08:33:41.518 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 7 / 669731
+2014-05-05 08:33:41.530 WoundApp[63162:7e0b] [NMSP_DEBUG] Looking for start or interspeech timeout: 8 / 669731
+2014-05-05 08:33:41.531 WoundApp[63162:7e0b] [NMSP_DEBUG] Speech detected.
+2014-05-05 08:33:41.531 WoundApp[63162:7e0b] [NMSP_DEBUG] Received VST_OEM_AUDIO_DETECT_UTT_START
+2014-05-05 08:33:41.554 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.554 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:41.555 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:41.555 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:41.555 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:41.577 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.599 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.611 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.635 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.657 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 9 / 669770
+2014-05-05 08:33:41.669 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 10 / 669770
+2014-05-05 08:33:41.692 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 11 / 669770
+2014-05-05 08:33:41.716 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.739 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.751 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.774 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.797 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.797 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_record()
+2014-05-05 08:33:41.798 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:41.798 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (868 bytes)  
+2014-05-05 08:33:41.798 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:41.820 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 12 / 669770
+2014-05-05 08:33:41.832 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 13 / 669770
+2014-05-05 08:33:41.855 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.879 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.889 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.914 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.936 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.960 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.971 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:41.994 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:42.003 WoundApp[63162:70b] Before startRecognition
+2014-05-05 08:33:42.004 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [ed9f1ecf-5995-4dfb-a3bc-8dafd671e963]
+2014-05-05 08:33:42.004 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1356691038].
+2014-05-05 08:33:42.005 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-05 08:33:42.005 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-05 08:33:42.006 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-05 08:33:42.006 WoundApp[63162:70b] set session Active 0
+2014-05-05 08:33:42.006 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:42.007 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.007 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.007 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.008 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.008 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.008 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.009 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:42.009 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.009 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.010 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.010 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.012 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.012 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.012 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.013 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.013 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.013 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.014 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.014 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.014 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.014 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.015 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.015 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.015 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.016 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.016 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.016 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.017 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-05 08:33:42.017 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-05 08:33:42.018 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:42.019 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-05 08:33:42.018 WoundApp[63162:5613] [NMSP_DEBUG] cplCopyCommand.
+2014-05-05 08:33:42.019 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:42.020 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-05 08:33:42.021 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-05 08:33:42.021 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-05 08:33:42.022 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:42.022 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-05 08:33:42.022 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-05 08:33:42.023 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-05 08:33:42.023 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:42.023 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-05 08:33:42.024 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:42.024 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.024 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-05 08:33:42.024 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-05 08:33:42.025 WoundApp[63162:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '21.003906' ms. Plugin should use a background thread.
+2014-05-05 08:33:42.025 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:42.026 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:42.026 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:42.026 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_stop().
+2014-05-05 08:33:42.026 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:42.027 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:42.027 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidFinishRecording: Entered method. Recording finished. [PhoneGapSpeechPlugin1356691038]
+2014-05-05 08:33:42.028 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidFinishRecording: Leaving method.
+2014-05-05 08:33:42.028 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value().
+2014-05-05 08:33:42.029 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value() key not found.
+2014-05-05 08:33:42.026 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.029 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value().
+2014-05-05 08:33:42.029 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value() key not found.
+2014-05-05 08:33:42.030 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_delete().
+2014-05-05 08:33:42.029 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_getOpenSocketTime()
+2014-05-05 08:33:42.030 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-05 08:33:42.030 WoundApp[63162:7e0b] [NMSP_DEBUG] Waiting for more frames: 14 / 669770
+2014-05-05 08:33:42.031 WoundApp[63162:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-05 08:33:42.031 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_getConnectionEstablishedTime()
+2014-05-05 08:33:42.032 WoundApp[63162:70b] DBG IT: oemAudioInitialize:449
+2014-05-05 08:33:42.033 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-05 08:33:42.032 WoundApp[63162:5613] [NMSP_DEBUG] CPL_LOG <sp><rid>0</rid><gwlog p="CLIENT_CONNECTION_ESTABLISHED" v="1"/><gwlog p="CLIENT_REQUEST_ABORTED_NMDP_ASR_CMD" v="2"/></sp>
+2014-05-05 08:33:42.033 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_destroy().
+2014-05-05 08:33:42.033 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 2.
+2014-05-05 08:33:42.033 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-05 08:33:42.034 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_SET_PARAMS.
+2014-05-05 08:33:42.034 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.034 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-05 08:33:42.035 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.035 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:42.035 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:42.036 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.036 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-05 08:33:42.036 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-05 08:33:42.037 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:42.037 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:42.037 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:42.038 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (109 bytes)  
+2014-05-05 08:33:42.038 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderStopRecording().
+2014-05-05 08:33:42.038 WoundApp[63162:5613] DBG IT: nmsp_vst_oem_audio_stopRecording:1177
+2014-05-05 08:33:42.039 WoundApp[63162:5613] [NMSP_DEBUG] vst_oem_audio_stopRecording
+2014-05-05 08:33:42.039 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStop enter
+2014-05-05 08:33:42.040 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStop exit 0
+2014-05-05 08:33:42.040 WoundApp[63162:5613] [NMSP_DEBUG] vst_oem_audio_stopRecording:  recorded 70588 samples
+2014-05-05 08:33:42.041 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderDelete().
+2014-05-05 08:33:42.041 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Entered method. Got error. [PhoneGapSpeechPlugin1356691038]
+2014-05-05 08:33:42.041 WoundApp[63162:7e0b] [NMSP_DEBUG] Encoder: Encoding finished. 70588 (220) 70588 (220) 220 -- 141176 (441) 141176 (441)
+2014-05-05 08:33:42.041 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (167 bytes)  
+2014-05-05 08:33:42.041 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Session id [ed9f1ecf-5995-4dfb-a3bc-8dafd671e963].
+2014-05-05 08:33:42.041 WoundApp[63162:7e0b] [NMSP_DEBUG] Encoder: mqueue high water mark 1
+2014-05-05 08:33:42.042 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (14 bytes)  
+2014-05-05 08:33:42.043 WoundApp[63162:70b] PhoneGapSpeechPlugin.recognizerDidFinishWithError: Leaving method
+2014-05-05 08:33:42.043 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (84 bytes)  
+2014-05-05 08:33:42.044 WoundApp[63162:70b] After startRecognition
+2014-05-05 08:33:42.043 WoundApp[63162:7e0b] [NMSP_DEBUG] inputStoppedEvtHndlr
+2014-05-05 08:33:42.044 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (37 bytes)  
+2014-05-05 08:33:42.045 WoundApp[63162:5613] [NMSP_DEBUG] stopRecording_msgHandler().
+2014-05-05 08:33:42.045 WoundApp[63162:5613] [NMSP_DEBUG] deleteRecorder()
+2014-05-05 08:33:42.045 WoundApp[63162:70b] release audio session 1
+2014-05-05 08:33:42.045 WoundApp[63162:5613] [NMSP_DEBUG] writeCallBack encountered!
+2014-05-05 08:33:42.046 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:45.047 WoundApp[63162:70b] Before startRecognition
+2014-05-05 08:33:45.048 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Entered method. Session ID [ed9f1ecf-5995-4dfb-a3bc-8dafd671e963]
+2014-05-05 08:33:45.048 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Call back id [PhoneGapSpeechPlugin1356691039].
+2014-05-05 08:33:45.048 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Reco type [dictation].
+2014-05-05 08:33:45.049 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Language [en_us].
+2014-05-05 08:33:45.049 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Recognition model set to [websearch].
+2014-05-05 08:33:45.050 WoundApp[63162:70b] set session Active 0
+2014-05-05 08:33:45.050 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:45.051 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.051 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.052 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.052 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.052 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.053 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.053 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:45.053 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.054 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.054 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.054 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.056 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.056 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.056 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.057 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.057 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.057 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.058 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.058 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.059 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.059 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.059 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.060 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.060 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.060 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.060 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.061 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.061 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_create().
+2014-05-05 08:33:45.062 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_pdx_dictionary_parameter().
+2014-05-05 08:33:45.062 WoundApp[63162:5613] [NMSP_DEBUG] cplCopyCommand.
+2014-05-05 08:33:45.062 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:45.062 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-05 08:33:45.062 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-05 08:33:45.063 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_create().
+2014-05-05 08:33:45.063 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 9.
+2014-05-05 08:33:45.063 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_audio_param_getAudioSink().
+2014-05-05 08:33:45.063 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_BEGIN.
+2014-05-05 08:33:45.063 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_send_parameter()
+2014-05-05 08:33:45.064 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.064 WoundApp[63162:70b] [NMSP_DEBUG] Stop on end of speech is activated.
+2014-05-05 08:33:45.064 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (894 bytes)  
+2014-05-05 08:33:45.064 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_start().
+2014-05-05 08:33:45.065 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_end().
+2014-05-05 08:33:45.065 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:45.065 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_getOpenSocketTime()
+2014-05-05 08:33:45.065 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_delete_dictionary().
+2014-05-05 08:33:45.066 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_getConnectionEstablishedTime()
+2014-05-05 08:33:45.066 WoundApp[63162:5613] [NMSP_DEBUG] CPL_LOG <sp><rid>0</rid><gwlog p="CLIENT_REQUEST_ABORTED_NMDP_ASR_CMD" v="1"/></sp>
+2014-05-05 08:33:45.066 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 2.
+2014-05-05 08:33:45.067 WoundApp[63162:70b] PhoneGapSpeechPlugin.startRecognition: Leaving method.
+2014-05-05 08:33:45.067 WoundApp[63162:70b] THREAD WARNING: ['PhoneGapSpeechPlugin'] took '19.650146' ms. Plugin should use a background thread.
+2014-05-05 08:33:45.067 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_SET_PARAMS.
+2014-05-05 08:33:45.068 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_create_dictionary().
+2014-05-05 08:33:45.068 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.068 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_stop().
+2014-05-05 08:33:45.069 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_add().
+2014-05-05 08:33:45.069 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_dictionary_key_exists
+2014-05-05 08:33:45.068 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:45.069 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value().
+2014-05-05 08:33:45.070 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_string_value() key not found.
+2014-05-05 08:33:45.069 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:45.070 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value().
+2014-05-05 08:33:45.070 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.070 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_get_dictionary_value() key not found.
+2014-05-05 08:33:45.070 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_send_vap_begin()
+2014-05-05 08:33:45.071 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_delete().
+2014-05-05 08:33:45.071 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.071 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_audio_recorder_create().
+2014-05-05 08:33:45.071 WoundApp[63162:70b] DBG IT: nmsp_vst_oem_audio_init:877
+2014-05-05 08:33:45.071 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:45.072 WoundApp[63162:70b] DBG IT: oemAudioInitialize:449
+2014-05-05 08:33:45.072 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:45.072 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_parameter_delete().
+2014-05-05 08:33:45.072 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.073 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_nmas_command_destroy().
+2014-05-05 08:33:45.073 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_pdx_statsQueueAddName()
+2014-05-05 08:33:45.073 WoundApp[63162:70b] [NMSP_DEBUG] nmsp_session_getState: 2
+2014-05-05 08:33:45.074 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderStartRecording().
+2014-05-05 08:33:45.074 WoundApp[63162:5613] DBG IT: nmsp_vst_oem_audio_startRecording:981
+2014-05-05 08:33:45.074 WoundApp[63162:5613] [NMSP_DEBUG] vst_oem_audio_startRecording
+2014-05-05 08:33:45.075 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStart enter
+2014-05-05 08:33:45.075 WoundApp[63162:5613] [NMSP_DEBUG] AudioOutputUnitStart exit
+2014-05-05 08:33:45.076 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_vst_oem_network_socketWrite()! (113 bytes)  
+2014-05-05 08:33:45.076 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage() 8.
+2014-05-05 08:33:45.077 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_session_postBCPMessage_() XMODE_BCP_COMMAND_BCP_DATA.
+2014-05-05 08:33:45.077 WoundApp[63162:5613] [NMSP_DEBUG] nmsp_core_xmode_sendXModeMsg()
+2014-05-05 08:33:45.077 WoundApp[63162:5613] [NMSP_DEBUG] handleRecorderStopRecording().
