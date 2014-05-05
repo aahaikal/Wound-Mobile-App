@@ -32,7 +32,7 @@ function toggleTTSDialog() {
 
 
 function doInit() {
-    //console.log("Before init");
+    console.log("Before init Im here");
     
     var serverURL = "sandbox.nmdp.nuancemobility.net";
     speechKit.initialize("Credentials", serverURL, 443, false, function(r){printResult(r)}, function(e){printResult(e)} );
@@ -45,22 +45,54 @@ function doCleanup(){
     speechKit.cleanup( function(r){printResult(r)}, function(e){printResult(e)} );
 }
 
-function startRecognition(){
+
+
+
+
+
+
+function startRecognition(o){
+    console.log("this is the this >>>>>>>>" + o.id);
+    var element = o.id;
+    console.log("this is the this element >>>>>>>>" + element);
     
+
+
     printRecoStage("Listening");
-    var recoTypeSelect = document.getElementById("reco-type");
-    var recoType = recoTypeSelect.value;
-    var recoLanguageSelect = document.getElementById("reco-language");
-    var recoLanguage = recoLanguageSelect.value;
-    var stopButton = document.getElementById("stop-reco");
-    stopButton.disabled = false;
+    var recoType = "dictation";
+    var recoLanguage = "en_us";
     
     console.log("Before startRecognition");
-    speechKit.startRecognition(recoType, recoLanguage, function(r){printRecoResult(r)}, function(e){printRecoResult(e)} );
+    speechKit.startRecognition(recoType, recoLanguage, function(r){resulttext(r, element)}, function(e){printRecoResult(e)} );
     console.log("After startRecognition");
-    setRecoDialogVisibile(false);
+     setRecoDialogVisibile(false);
     var tempObj = new Object();
 }
+
+
+
+
+
+function resulttext(r,element){
+    console.log(element)
+    
+    document.getElementById(element).value = r.result
+    
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function stopRecognition(){
@@ -130,25 +162,25 @@ function printRecoResult(resultObject){
         if (resultObject.event == 'RecoComplete' || resultObject.event == 'RecoStopped' || resultObject.event == 'RecoError'){
             var stopButton = document.getElementById("stop-reco");
             stopButton.disabled = true;
-            setRecoDialogVisibile(false);
+            // setRecoDialogVisibile(false);
         }
-        var innerHtmlText=getHtml(resultObject);
+        var innerHtmlText = "";
         
-        document.getElementById('re').value = resultObject.result
+        document.getElementById('status_stage_description').value = resultObject.result
     }
 }
 
 
 function printResult(resultObject){
     var innerHtmlText=getHtml(resultObject);
-    document.getElementById("result").innerHTML=innerHtmlText;
+    document.getElementById("status_stage").value = innerHtmlText;
 }
 
 function printRecoStage(stage){
     var resultObject = new Object();
     resultObject.event = stage;
     var innerHtmlText=getHtml(resultObject);
-    document.getElementById("result").innerHTML=innerHtmlText;
+    document.getElementById("status_stage").innerHTML=innerHtmlText;
 }
 
 function setVolumeLevel(resultObject){
@@ -157,72 +189,24 @@ function setVolumeLevel(resultObject){
 }
 
 function getHtml(resultObject){
-    var htmlText="<ul><li>Return Code: "+resultObject.returnCode;
-    htmlText=htmlText+"</li></ul>";
-    htmlText=htmlText+"<ul><li>Return Text: "+resultObject.returnText;
-    htmlText=htmlText+"</li></ul>";
+    var htmlText= resultObject.returnText;
+    
     if (resultObject.result != undefined){
-        htmlText=htmlText+"<ul><li>Result: "+ resultObject.returnText ;
-        htmlText=htmlText+"</li></ul>";
+        htmlText=  resultObject.returnText ;
     }
     if (resultObject.results != undefined){
         var resultCount = resultObject.results.length;
         var i = 0;
-        htmlText=htmlText+"<ul><li>Results Details:";
+        htmlText=htmlText;
         for (i = 0; i < resultCount; i++){
             htmlText=htmlText+"<br>"+i+": "+resultObject.results[i].value+" ["+resultObject.results[i].confidence+"]";
         }
-        htmlText=htmlText+"</li></ul>";
     }
     if (resultObject.event != undefined){
-        htmlText=htmlText+"<ul><li>Event: "+resultObject.event;
-        htmlText=htmlText+"</li></ul>";
+        htmlText= resultObject.event;
     }
     return htmlText;
 }
 
-
-function setActiveTab(num){
-    
-    var tabList = document.getElementById("tab-list");
-    var tab = tabList.firstChild;
-    
-    var i = 0;
-    do{
-	    if (tab.tagName == "A"){
-            i++;
-            tab.href = "javascript:setActiveTab("+i+");";
-            if (i == num){
-                tab.className = "Active";
-            }
-            else{
-                tab.className = "";
-            }
-            tab.blur();
-	    }
-    }
-    while (tab = tab.nextSibling);
-    
-    var tabContent = document.getElementById("tab-content");
-    var tabData = tabContent.firstChild;
-    
-    var i = 0;
-    do{
-	    if (tabData.className == "tab-data"){
-            i++;
-            if (tabContent.offsetHeight){
-                tabData.style.height = (tabContent.offsetHeight-2)+"px";
-            }
-            tabData.style.overflow = "auto";
-            if (i == num){
-                tabData.style.display  = "block";
-            }
-            else{
-                tabData.style.display  = "none";
-            }
-	    }
-    }
-    while (tabData = tabData.nextSibling);
-}
 
 
