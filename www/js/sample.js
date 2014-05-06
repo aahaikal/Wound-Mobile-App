@@ -52,11 +52,8 @@ function doCleanup(){
 
 
 function startRecognition(o){
-    console.log("this is the this >>>>>>>>" + o.id);
     var element = o.id;
-    console.log("this is the this element >>>>>>>>" + element);
-    
-
+   
 
     printRecoStage("Listening");
     var recoType = "dictation";
@@ -68,38 +65,26 @@ function startRecognition(o){
      setRecoDialogVisibile(false);
     var tempObj = new Object();
 }
-
-
-
-
-
 function resulttext(r,element){
-    console.log(element)
     
-    document.getElementById(element).value = r.result
-    
-
+    if (typeof r.result == "undefined"){
+     document.getElementById(element).value = "";
+    } else{
+        
+        document.getElementById(element).value = r.result
+    };
 
 };
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-function stopRecognition(){
-    var stopButton = document.getElementById("stop-reco");
-    stopButton.disabled = true;
-    speechKit.stopRecognition(function(r){printRecoResult(r)}, function(e){console.log(e)} );
-    
+function stopRecognition(e){
+    console.log("99999999999999 "+e.id)
+    var stopButton = document.getElementById(e.id);
+    var element = document.getElementById(e.id).nextSibling;
+    console.log(element.id);
+    speechKit.stopRecognition(function(r){resulttext(r,element.id)}, function(e){console.log(e)} );
 }
 
 
@@ -173,7 +158,7 @@ function printRecoResult(resultObject){
 
 function printResult(resultObject){
     var innerHtmlText=getHtml(resultObject);
-    document.getElementById("status_stage").value = innerHtmlText;
+    document.getElementById("status_stage").value = "";
 }
 
 function printRecoStage(stage){

@@ -60,52 +60,56 @@
                         
                         <label for="status_stage" >Wound Stage:</label>
                         
-                        <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" />
+                        <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true"/>
                         
-                        <button onclick="stopRecognition()">Stop Dictation</button>
+                        
                        
                        <label for="status_stage_description">Stage Description</label>
                         
-                        <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]"></textarea>
+                        <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
                         
                         
                         <button onclick="app.takePicture();">Capture Photo</button>
-                        <img id="myImage" src="" alt="" height="150" width="150">
-                            <br>
+                        
+                            
                             
                             <label for="status_length">Length</label>
-                            <input id="status_length" name="status[length]" type="number"  onclick="startRecognition(this)"/>
+                            <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true"/>
                             
                             <label for="status_width">Width</label>
-                            <input id="status_width" name="status[width]" type="number" />Odor
-                            <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)"/>
+                            <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true"/>
+                            
+                            
+                            <label for="status_odor">Odor</label>
+                            <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_color">color</label>
-                            <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_drainage">Drainage</label>
-                            <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_appearance">Appearance</label>
-                            <input id="status_appearance" name="status[appearance]" type="text" />
+                            <input id="status_appearance" name="status[appearance]" type="text" value="" data-clear-btn="true"/>
                             
                             <label for="status_treatment">Treatment</label>
-                            <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_treatment_response">Treatment Response</label>
-                            <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_tunnel">Tunnel</label>
-                            <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_pain">Pain</label>
-                            <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)"/>
+                            <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
                             
                             <label for="status_image_url">Image</label>
-                            <input id="status_image_url" name="status[image_url]" type="text" />
+                            <img id="myImage" src="" alt="" height="150" width="150" >
+                            <input id="status_image_url" name="status[image_url]" type="text" type="hidden"  value=""/>
                             
                             <label for="status_note">Notes</label>
-                            <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)"></textarea>
+                            <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true" ></textarea>
                             
                             <input name="commit" type="submit" value="Create Status" />
                             </form>
@@ -123,16 +127,23 @@
     <script type="text/javascript" src="js/sample.js"></script>
 <script type="text/javascript" >
 
-            
-            document.addEventListener('deviceready', function() {
+                   document.addEventListener('deviceready', function() {
                                       //var initButton = document.getElementById("init-speech");
                                       //var cleanUpButton = document.getElementById("cleanup");
+                                      
                                       doInit();
                                       document.addEventListener('backbutton', function() { doCleanup(); navigator.app.exitApp(); }, true);
                                       //initButton.disabled=true;
                                       //cleanUpButton.disabled=false;
                                       }, true);
             
+            
+            </script>
+
+        <script>
+            $(document).on("pagecontainerloadfailed",function(){
+                           console.log("Sorry, requested page does not exist.");
+                           });
             
             </script>
 
