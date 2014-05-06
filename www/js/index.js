@@ -63,14 +63,15 @@ var app = {
             alert('Failed because: ' + message);
         }
     }
+    
+ 
 
     // callserver: function() {
-
     //     var form = $("#form");
 
     //     $.ajax({
     //         type: "POST",
-    //         url: "http://morning-wave-9385.herokuapp.com/sessions/create",
+    //         url: "http://morning-wave-9385.herokuapp.com",
     //         data: form,
     //         dataType: "jsonp"
     //     }).done(function(msg) {
