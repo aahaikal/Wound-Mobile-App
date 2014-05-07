@@ -65,7 +65,7 @@ var app = {
     },
 
     callserver: function() {
-        //  var form = $("#form");
+         var form = $("#new_status").serialize();
         //  console.log('the ajax method')
         // $.ajax({
         //     type: "GET",
@@ -77,7 +77,7 @@ var app = {
         // });
         $.ajax({
             type: "POST",
-            url: "http://127.0.0.1:3000/api/v1/statuses",
+            url: "http://morning-wave-9385.herokuapp.com/api/v1/statuses",
             crossDomain: true,
             beforeSend: function() {
                 $.mobile.loading('show')
@@ -85,14 +85,10 @@ var app = {
             complete: function() {
                 $.mobile.loading('hide')
             },
-            data: {
-                wound_id: 1,
-                stage: 'passwordx',
-                patient_id: 1
-            },
+            data: form,
             dataType: 'json',
             success: function(response) {
-                navigator.notification.alert("You Created a Status", function() {});
+                // navigator.notification.alert("You Created a Status", function() {});
                 //console.error(JSON.stringify(response));
                 console.log(response.status);
 

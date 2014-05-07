@@ -10,7 +10,13 @@
     <p>You are in the Status page</p>
     <p>statuses</p>
 <script>
-	console.log(localStorage.status);
+	console.log("this is localStorage>>>>>" + localStorage.status);
+	console.log("this is response>>>>> " + response.status);
+
+	$(document).on('pagebeforeshow', '#second', function(){       
+    alert('My name is ' + localStorage.status);    
+});
+
 </script>
 </body>
 
