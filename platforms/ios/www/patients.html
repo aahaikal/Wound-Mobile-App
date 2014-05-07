@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div data-role="page" name="show" id="showpatients">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+
+
+        </div>
+    </div>
+
+    <script>
+    $("#showpatients").live('pageshow', function() {
+
+        //--------------------------ajax---wounds----           
+        $.ajax({
+            url: "http://0.0.0.0:3000/api/v1/users/" + 1,
+            success: function(e) {
+                console.log(e);
+                var ul = $('<ul>').appendTo('.ui-content');
+                $(e.status).each(function(index, item) {
+                    ul.append(
+                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all")
+                    );
+                });
+
+            },
+            dataType: "json"
+        });
+        //---------------------------ajax
+
+    });
+    </script>
+
+</body>
+
+</html>
