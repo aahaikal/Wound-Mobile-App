@@ -9,7 +9,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
-   
+
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
 
@@ -38,94 +38,115 @@
             </form>
         </div>
     </div> -->
+    <!-- *************************************************** -->
 
+
+    <div data-role="page" name="show" id="showpatients">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+           
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ******************************* -->
     <!-- lookup patient page -->
 
-     <div data-role="page" name="form">
-            <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
-            
-            <div data-role="header" data-position="fixed">
-                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
-                <h1>Wound Monitor</h1>
-                <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
-            </div>
-            <div data-role="content">
-                <div data-role="fieldcontain">
-                    <form accept-charset="UTF-8" action="/statuses"  id="new_status" method="post">
-                        <div style="display:none">
-                            <input name="utf8" type="hidden" value="&#x2713;" />
-                            <input name="authenticity_token" type="hidden" value="rmkSRB5CjZqWqU7InbV4vEo6RRc6uuFw9CTojn6meYE=" />
-                        </div>
+    <div data-role="page" name="form">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
 
-                        
-                        <input id="wound_id" name="wound_id" type="hidden" value="1" />
-                        <input id="patient_id" name="patient_id" type="hidden" value="1" />
-                        
-                        <label for="status_stage" >Wound Stage:</label>
-                        
-                        <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true"/>
-                        
-                        
-                       
-                       <label for="status_stage_description">Stage Description</label>
-                        
-                        <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
-                        
-                        
-                        <button onclick="app.takePicture();">Capture Photo</button>
-                        
-                            
-                            
-                            <label for="status_length">Length</label>
-                            <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_width">Width</label>
-                            <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true"/>
-                            
-                            
-                            <label for="status_odor">Odor</label>
-                            <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_color">color</label>
-                            <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_drainage">Drainage</label>
-                            <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_appearance">Appearance</label>
-                            <input id="status_appearance" name="status[appearance]" type="text" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_treatment">Treatment</label>
-                            <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_treatment_response">Treatment Response</label>
-                            <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_tunnel">Tunnel</label>
-                            <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_pain">Pain</label>
-                            <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true"/>
-                            
-                            <label for="status_image_url">Image</label>
-                            <img id="myImage" src="" alt="" height="150" width="150" >
-                            <input id="status_image_url" name="status[image_url]" type="text" type="hidden"  value=""/>
-                            
-                            <label for="status_note">Notes</label>
-                            <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true" ></textarea>
-                            
-                            <input name="commit" type="submit" value="Create Status" onclick="app.callserver()"/>
-                            </form>
-                </div>
-                
-                
-                
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain">
+                <form accept-charset="UTF-8" action="/statuses" id="new_status" method="post">
+                    <div style="display:none">
+                        <input name="utf8" type="hidden" value="&#x2713;" />
+                        <input name="authenticity_token" type="hidden" value="rmkSRB5CjZqWqU7InbV4vEo6RRc6uuFw9CTojn6meYE=" />
+                    </div>
+
+
+                    <input id="wound_id" name="wound_id" type="hidden" value="1" />
+                    <input id="patient_id" name="patient_id" type="hidden" value="1" />
+
+                    <label for="status_stage">Wound Stage:</label>
+
+                    <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true" />
+
+
+
+                    <label for="status_stage_description">Stage Description</label>
+
+                    <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
+
+
+                    <button onclick="app.takePicture();">Capture Photo</button>
+
+
+
+                    <label for="status_length">Length</label>
+                    <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true" />
+
+                    <label for="status_width">Width</label>
+                    <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true" />
+
+
+                    <label for="status_odor">Odor</label>
+                    <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_color">color</label>
+                    <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_drainage">Drainage</label>
+                    <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_appearance">Appearance</label>
+                    <input id="status_appearance" name="status[appearance]" type="text" value="" data-clear-btn="true" />
+
+                    <label for="status_treatment">Treatment</label>
+                    <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_treatment_response">Treatment Response</label>
+                    <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_tunnel">Tunnel</label>
+                    <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_pain">Pain</label>
+                    <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_image_url">Image</label>
+                    <img id="myImage" src="" alt="" height="150" width="150">
+                    <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" />
+
+                    <label for="status_note">Notes</label>
+                    <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true"></textarea>
+
+                    <input name="commit" type="submit" value="Create Status" onclick="app.callserver()" />
+                </form>
             </div>
+
+
+
         </div>
-        </div>
-        <div id="highlight"></div>
-        
- <div data-role="page" name="show" id="show">
+    </div>
+    </div>
+    <div id="highlight"></div>
+
+    <!-- ******************show patients wounds**********************-->
+    <div data-role="page" name="show" id="show">
         <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
 
         <div data-role="header" data-position="fixed">
@@ -138,7 +159,7 @@
 
         </div>
     </div>
-
+    <!-- ****************************************-->
 
 
 
@@ -150,27 +171,44 @@
     <script src="js/index.js"></script>
     <script type="text/javascript" src="js/nuancespeechkit.js"></script>
     <script type="text/javascript" src="js/sample.js"></script>
-<script type="text/javascript" >
+    <script type="text/javascript">
+    document.addEventListener('deviceready', function() {
+        //var initButton = document.getElementById("init-speech");
+        //var cleanUpButton = document.getElementById("cleanup");
 
-                   document.addEventListener('deviceready', function() {
-                                      //var initButton = document.getElementById("init-speech");
-                                      //var cleanUpButton = document.getElementById("cleanup");
-                                      
-                                      doInit();
-                                      document.addEventListener('backbutton', function() { doCleanup(); navigator.app.exitApp(); }, true);
-                                      //initButton.disabled=true;
-                                      //cleanUpButton.disabled=false;
-                                      }, true);
-            
-            
-            </script>
+        doInit();
+        document.addEventListener('backbutton', function() {
+            loadThepage();
+            doCleanup();
+            navigator.app.exitApp();
+        }, true);
+        //initButton.disabled=true;
+        //cleanUpButton.disabled=false;
+    }, true);
+    </script>
 
-        <script>
-            $(document).on("pagecontainerloadfailed",function(){
-                           console.log("Sorry, requested page does not exist.");
-                           });
-            
-            </script>
+    <script>
+    $(document).on('pageinit', '#showpatients', function() {
+
+        //--------------------------ajax---wounds----           
+        $.ajax({
+            url: "http://0.0.0.0:3000/api/v1/users/" + 1,
+            success: function(e) {
+                console.log(e);
+                var ul = $('<ul>').appendTo('.ui-content');
+                $(e.status).each(function(index, item) {
+                    ul.append(
+                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all")
+                    );
+                });
+
+            },
+            dataType: "json"
+        });
+        //---------------------------ajax
+
+    });
+    </script>
 
 </body>
 

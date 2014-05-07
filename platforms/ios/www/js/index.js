@@ -111,8 +111,8 @@ var app = {
             }
 
         });
+        //---------------------------------------------------------
         $(document).on('pagebeforeshow', '#show', function() {
-            // alert('this is the alert ' + localStorage.status);
 
             //--------------------------ajax---wounds----           
             $.ajax({
@@ -125,13 +125,15 @@ var app = {
                             $(document.createElement('button')).text(item.location).addClass(" ui-btn ui-shadow ui-corner-all")
                         );
                     });
-                    // body...
+                   
                 },
                 dataType: "json"
             });
             //---------------------------ajax
 
         });
+        //----------------------------------------document---end method--
     }
+
 
 };
