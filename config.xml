@@ -57,4 +57,5 @@
     </feature>
     
     <access origin="*" />
+    <access origin="*localhost*" />
 </widget>
