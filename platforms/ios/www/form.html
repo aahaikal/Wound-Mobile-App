@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div data-role="page" name="form" id="forms">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain">
+                <form accept-charset="UTF-8" action="/statuses" id="new_status" method="post">
+                    <div style="display:none">
+                        <input name="utf8" type="hidden" value="&#x2713;" />
+                        <input name="authenticity_token" type="hidden" value="rmkSRB5CjZqWqU7InbV4vEo6RRc6uuFw9CTojn6meYE=" />
+                    </div>
+
+
+                    <input id="wound_id" name="wound_id" type="hidden"  />
+
+                    <input id="patient_id" name="patient_id" type="hidden" />
+                    <p>in the form B</p>
+
+                    <label for="status_stage">Wound Stage:</label>
+
+                    <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true" />
+
+
+
+                    <label for="status_stage_description">Stage Description</label>
+
+                    <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
+
+
+                    <button onclick="app.takePicture();">Capture Photo</button>
+
+
+
+                    <label for="status_length">Length</label>
+                    <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true" />
+
+                    <label for="status_width">Width</label>
+                    <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true" />
+
+
+                    <label for="status_odor">Odor</label>
+                    <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_color">color</label>
+                    <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_drainage">Drainage</label>
+                    <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_appearance">Appearance</label>
+                    <input id="status_appearance" name="status[appearance]" type="text" value="" data-clear-btn="true" />
+
+                    <label for="status_treatment">Treatment</label>
+                    <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_treatment_response">Treatment Response</label>
+                    <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_tunnel">Tunnel</label>
+                    <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_pain">Pain</label>
+                    <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
+
+                    <label for="status_image_url">Image</label>
+                    <img id="myImage" src="" alt="" height="150" width="150">
+                    <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" />
+
+                    <label for="status_note">Notes</label>
+                    <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true"></textarea>
+
+                    <input name="commit" type="submit" value="Create Status" onclick="app.callserver(this)" />
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
