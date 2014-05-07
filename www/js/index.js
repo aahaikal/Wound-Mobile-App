@@ -65,16 +65,8 @@ var app = {
     },
 
     callserver: function() {
+        console.log('in the callserver')
         var form = $("#new_status").serialize();
-        //  console.log('the ajax method')
-        // $.ajax({
-        //     type: "GET",
-        //     url: "http://localhost:3000/api/v1/statuses",
-        //      data: {},
-        //     dataType: "jsonp"
-        // }).done(function(msg) {
-        //     console.log("msg000000000" + msg);
-        // });
         $.ajax({
             type: "POST",
             url: "http://0.0.0.0:3000/api/v1/statuses",
@@ -88,26 +80,15 @@ var app = {
             data: form,
             dataType: 'json',
             success: function(response) {
-                console.log(response.status);
-
-                var status = response.status
-                if (status !== null) {
-                    if (typeof(Storage) !== "undefined") {
-                        localStorage.status = status;
-                    }
-                    $.mobile.changePage("ios/www/status.html", {
-                        type: "post",
-                        data: localStorage.status,
-                        changeHash: false
-                    });
+                if (response.status !== null) {
+                    console.log("this is the response" + response.status)
+                    console.log('the patient id' + localStorage.pat_id)
+                    navigator.notification.alert("Your status for " + localStorage.pat_id
+                    +" was sent" , function() {});
                 } else {
-                    console.log("in the else ")
+                    console.log("in the else in the call server ")
                     // navigator.notification.alert("Your Status failed", function() {});
                 }
-
-
-
-
             }
 
         });
@@ -125,7 +106,7 @@ var app = {
                             $(document.createElement('button')).text(item.location).addClass(" ui-btn ui-shadow ui-corner-all")
                         );
                     });
-                   
+
                 },
                 dataType: "json"
             });
@@ -133,7 +114,11 @@ var app = {
 
         });
         //----------------------------------------document---end method--
+
+
     }
+
+
 
 
 };

@@ -61,7 +61,7 @@
     <!-- ******************************* -->
     <!-- *************patients Wounds to select****************** -->
 
-    <div data-role="page" name="show" id="wounds">
+    <div data-role="page" name="show" id="wound">
         <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
 
         <div data-role="header" data-position="fixed">
@@ -72,7 +72,7 @@
         <div data-role="content">
 
 
-            <p> the wounds page</p>
+            <p>the wounds page</p>
 
 
         </div>
@@ -81,88 +81,8 @@
 
     <!-- lookup patient page -->
 
-    <div data-role="page" name="form">
-        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
-
-        <div data-role="header" data-position="fixed">
-            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
-            <h1>Wound Monitor</h1>
-            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
-        </div>
-        <div data-role="content">
-            <div data-role="fieldcontain">
-                <form accept-charset="UTF-8" action="/statuses" id="new_status" method="post">
-                    <div style="display:none">
-                        <input name="utf8" type="hidden" value="&#x2713;" />
-                        <input name="authenticity_token" type="hidden" value="rmkSRB5CjZqWqU7InbV4vEo6RRc6uuFw9CTojn6meYE=" />
-                    </div>
 
 
-                    <input id="wound_id" name="wound_id" type="hidden" value="1" />
-                    <input id="patient_id" name="patient_id" type="hidden" value="1" />
-
-                    <label for="status_stage">Wound Stage:</label>
-
-                    <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true" />
-
-
-
-                    <label for="status_stage_description">Stage Description</label>
-
-                    <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
-
-
-                    <button onclick="app.takePicture();">Capture Photo</button>
-
-
-
-                    <label for="status_length">Length</label>
-                    <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true" />
-
-                    <label for="status_width">Width</label>
-                    <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true" />
-
-
-                    <label for="status_odor">Odor</label>
-                    <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_color">color</label>
-                    <input id="status_color" name="status[color]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_drainage">Drainage</label>
-                    <input id="status_drainage" name="status[drainage]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_appearance">Appearance</label>
-                    <input id="status_appearance" name="status[appearance]" type="text" value="" data-clear-btn="true" />
-
-                    <label for="status_treatment">Treatment</label>
-                    <input id="status_treatment" name="status[treatment]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_treatment_response">Treatment Response</label>
-                    <input id="status_treatment_response" name="status[treatment_response]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_tunnel">Tunnel</label>
-                    <input id="status_tunnel" name="status[tunnel]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_pain">Pain</label>
-                    <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
-
-                    <label for="status_image_url">Image</label>
-                    <img id="myImage" src="" alt="" height="150" width="150">
-                    <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" />
-
-                    <label for="status_note">Notes</label>
-                    <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true"></textarea>
-
-                    <input name="commit" type="submit" value="Create Status" onclick="app.callserver()" />
-                </form>
-            </div>
-
-
-
-        </div>
-    </div>
-    </div>
     <div id="highlight"></div>
 
     <!-- ******************show patients wounds**********************-->
@@ -227,13 +147,51 @@
     //----------------------------ajax to server get wounds
 
     function server(e) {
-        console.log("im here >>>>>>>>>" + e.id);
-            var id = e.id
+        console.log("im here the server m patient:id >>>>>>>>> " + e.id);
         if (status !== null) {
             if (typeof(Storage) !== "undefined") {
-                localStorage.id = id;
+                localStorage.pat_id = e.id;
             }
             $.mobile.changePage("wounds.html", {
+                type: "post",
+                data: localStorage.pat_id,
+                changeHash: false
+            });
+        } else {
+            console.log("in the else ")
+            // navigator.notification.alert("Your Status failed", function() {});
+        }
+    };
+
+    $(document).on('pageinit', '#wounds', function() {
+        console.log('something in the wounds' + localStorage.pat_id)
+        //-----------ajax to het patients wounds for page id wounds
+        $.ajax({
+            url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.pat_id,
+            success: function(e) {
+                console.log("this is the show method in the aptient show" + e);
+                console.log(e)
+                var ul = $('<ul>').appendTo('.ui-content');
+                $(e.woundlocation).each(function(index, item) {
+                    ul.append(
+                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'newstatus(this)')
+                    );
+                });
+
+            },
+            dataType: "json"
+        });
+        //---------------------------ajax
+    });
+
+    function newstatus(e) {
+        console.log("im here newstatus >>>>>>>>> " + e.id);
+        console.log('in the newstatus this is the patid' + localStorage.pat_id)
+        if (status !== null) {
+            if (typeof(Storage) !== "undefined") {
+                localStorage.id = e.id;
+            }
+            $.mobile.changePage("form.html", {
                 type: "post",
                 data: localStorage.id,
                 changeHash: false
@@ -243,6 +201,34 @@
             // navigator.notification.alert("Your Status failed", function() {});
         }
     };
+    //------------------get the status ajax
+
+    $(document).on('pageinit', '#forms', function() {
+
+        console.log('in the status ajax' + localStorage.id)
+
+        $("#patient_id").attr('value',localStorage.pat_id )
+        $("#wound_id").attr('value', localStorage.id)
+
+        // -----------ajax to het patients wounds for page id wounds
+        $.ajax({
+            url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.pat_id,
+            success: function(e) {
+                console.log("this is the show method in the aptient show" + e);
+                console.log(e)
+                var ul = $('<ul>').appendTo('.ui-content');
+                $(e.woundlocation).each(function(index, item) {
+                    ul.append(
+                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'newstatus(this)')
+                    );
+                });
+
+            },
+            dataType: "json"
+        });
+        // ---------------------------ajax
+    });
+  
     </script>
 
 </body>
