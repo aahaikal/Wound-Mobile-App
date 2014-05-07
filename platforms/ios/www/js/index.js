@@ -62,22 +62,62 @@ var app = {
         function onFail(message) {
             alert('Failed because: ' + message);
         }
+    },
+
+    callserver: function() {
+        //  var form = $("#form");
+        //  console.log('the ajax method')
+        // $.ajax({
+        //     type: "GET",
+        //     url: "http://localhost:3000/api/v1/statuses",
+        //      data: {},
+        //     dataType: "jsonp"
+        // }).done(function(msg) {
+        //     console.log("msg000000000" + msg);
+        // });
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:3000/api/v1/statuses",
+            crossDomain: true,
+            beforeSend: function() {
+                $.mobile.loading('show')
+            },
+            complete: function() {
+                $.mobile.loading('hide')
+            },
+            data: {
+                wound_id: 1,
+                stage: 'passwordx',
+                patient_id: 1
+            },
+            dataType: 'json',
+            success: function(response) {
+                navigator.notification.alert("You Created a Status", function() {});
+                //console.error(JSON.stringify(response));
+                console.log(response.status);
+
+                var statuses = response.status
+                if (response.status !== null) {
+                    if (typeof(Storage) !== "undefined") {
+                        localStorage.status = response.status;
+                    }
+                    $.mobile.changePage("ios/www/status.html", {
+                        type: "post",
+                        data: statuses,
+                        changeHash: false
+                    });
+                } else {
+                    console.log("in the else ")
+                    // navigator.notification.alert("Your Status failed", function() {});
+                }
+
+
+
+
+            }
+
+        });
+
     }
-    
- 
-
-    // callserver: function() {
-    //     var form = $("#form");
-
-    //     $.ajax({
-    //         type: "POST",
-    //         url: "http://morning-wave-9385.herokuapp.com",
-    //         data: form,
-    //         dataType: "jsonp"
-    //     }).done(function(msg) {
-    //         console.log("msg000000000" + msg);
-    //     });
-
-    // }
 
 };
