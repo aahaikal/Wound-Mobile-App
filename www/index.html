@@ -72,6 +72,9 @@
         <div data-role="content">
 
 
+            <p> the wounds page</p>
+
+
         </div>
     </div>
 
@@ -201,15 +204,15 @@
     <script>
     $(document).on('pageinit', '#showpatients', function() {
 
-        //--------------------------ajax---wounds----           
+        //-------------------ajax---user patients----           
         $.ajax({
             url: "http://0.0.0.0:3000/api/v1/users/" + 1,
             success: function(e) {
-                console.log(e);
+                console.log("patients name>>>>" + e.patientname);
                 var ul = $('<ul>').appendTo('.ui-content');
-                $(e.status).each(function(index, item) {
+                $(e.patientname).each(function(index, item) {
                     ul.append(
-                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all")
+                        $(document.createElement('button')).text(item).addClass("patients ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'server(this)')
                     );
                 });
 
@@ -219,8 +222,27 @@
         //---------------------------ajax
 
     });
+    //------doc----------------
 
-    
+    //----------------------------ajax to server get wounds
+
+    function server(e) {
+        console.log("im here >>>>>>>>>" + e.id);
+            var id = e.id
+        if (status !== null) {
+            if (typeof(Storage) !== "undefined") {
+                localStorage.id = id;
+            }
+            $.mobile.changePage("wounds.html", {
+                type: "post",
+                data: localStorage.id,
+                changeHash: false
+            });
+        } else {
+            console.log("in the else ")
+            // navigator.notification.alert("Your Status failed", function() {});
+        }
+    };
     </script>
 
 </body>
