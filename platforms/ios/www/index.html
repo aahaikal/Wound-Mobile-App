@@ -50,7 +50,7 @@
             <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
         </div>
         <div data-role="content">
-           
+
 
         </div>
     </div>
@@ -59,6 +59,26 @@
 
 
     <!-- ******************************* -->
+    <!-- *************patients Wounds to select****************** -->
+
+    <div data-role="page" name="show" id="wounds">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+
+
+            <p> the wounds page</p>
+
+
+        </div>
+    </div>
+
+
     <!-- lookup patient page -->
 
     <div data-role="page" name="form">
@@ -161,12 +181,6 @@
     </div>
     <!-- ****************************************-->
 
-
-
-
-
-
-
     <script type="text/javascript" src="cordova.js"></script>
     <script src="js/index.js"></script>
     <script type="text/javascript" src="js/nuancespeechkit.js"></script>
@@ -190,15 +204,15 @@
     <script>
     $(document).on('pageinit', '#showpatients', function() {
 
-        //--------------------------ajax---wounds----           
+        //-------------------ajax---user patients----           
         $.ajax({
             url: "http://0.0.0.0:3000/api/v1/users/" + 1,
             success: function(e) {
-                console.log(e);
+                console.log("patients name>>>>" + e.patientname);
                 var ul = $('<ul>').appendTo('.ui-content');
-                $(e.status).each(function(index, item) {
+                $(e.patientname).each(function(index, item) {
                     ul.append(
-                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all")
+                        $(document.createElement('button')).text(item).addClass("patients ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'server(this)')
                     );
                 });
 
@@ -208,6 +222,27 @@
         //---------------------------ajax
 
     });
+    //------doc----------------
+
+    //----------------------------ajax to server get wounds
+
+    function server(e) {
+        console.log("im here >>>>>>>>>" + e.id);
+            var id = e.id
+        if (status !== null) {
+            if (typeof(Storage) !== "undefined") {
+                localStorage.id = id;
+            }
+            $.mobile.changePage("wounds.html", {
+                type: "post",
+                data: localStorage.id,
+                changeHash: false
+            });
+        } else {
+            console.log("in the else ")
+            // navigator.notification.alert("Your Status failed", function() {});
+        }
+    };
     </script>
 
 </body>
