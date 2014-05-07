@@ -65,7 +65,7 @@ var app = {
     },
 
     callserver: function() {
-         var form = $("#new_status").serialize();
+        var form = $("#new_status").serialize();
         //  console.log('the ajax method')
         // $.ajax({
         //     type: "GET",
@@ -77,7 +77,7 @@ var app = {
         // });
         $.ajax({
             type: "POST",
-            url: "http://morning-wave-9385.herokuapp.com/api/v1/statuses",
+            url: "http://0.0.0.0:3000/api/v1/statuses",
             crossDomain: true,
             beforeSend: function() {
                 $.mobile.loading('show')
@@ -88,18 +88,16 @@ var app = {
             data: form,
             dataType: 'json',
             success: function(response) {
-                // navigator.notification.alert("You Created a Status", function() {});
-                //console.error(JSON.stringify(response));
                 console.log(response.status);
 
-                var statuses = response.status
-                if (response.status !== null) {
+                var status = response.status
+                if (status !== null) {
                     if (typeof(Storage) !== "undefined") {
-                        localStorage.status = response.status;
+                        localStorage.status = status;
                     }
                     $.mobile.changePage("ios/www/status.html", {
                         type: "post",
-                        data: statuses,
+                        data: localStorage.status,
                         changeHash: false
                     });
                 } else {
@@ -113,7 +111,27 @@ var app = {
             }
 
         });
+        $(document).on('pagebeforeshow', '#show', function() {
+            // alert('this is the alert ' + localStorage.status);
 
+            //--------------------------ajax---wounds----           
+            $.ajax({
+                url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.status,
+                success: function(e) {
+                    console.log(e);
+                    var ul = $('<ul>').appendTo('.ui-content');
+                    $(e.status).each(function(index, item) {
+                        ul.append(
+                            $(document.createElement('button')).text(item.location).addClass(" ui-btn ui-shadow ui-corner-all")
+                        );
+                    });
+                    // body...
+                },
+                dataType: "json"
+            });
+            //---------------------------ajax
+
+        });
     }
 
 };

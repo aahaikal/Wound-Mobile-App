@@ -6,18 +6,33 @@
 </head>
 
 <body>
+    <div data-role="page" name="show" id="show">
+        <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
 
-    <p>You are in the Status page</p>
-    <p>statuses</p>
-<script>
-	console.log("this is localStorage>>>>>" + localStorage.status);
-	console.log("this is response>>>>> " + response.status);
+        <div data-role="header" data-position="fixed">
+            <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+            <h1>Wound Monitor</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
 
-	$(document).on('pagebeforeshow', '#second', function(){       
-    alert('My name is ' + localStorage.status);    
-});
 
-</script>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+    console.log("this is localStorage>>>>>" + localStorage.status);
+
+    $(document).on('pagebeforeshow', '#show', function() {
+        alert('this is the alert ' + localStorage.status);
+
+
+    });
+    </script>
 </body>
 
 </html>
