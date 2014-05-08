@@ -80,15 +80,13 @@ var app = {
             data: form,
             dataType: 'json',
             success: function(response) {
-                if (response.status !== null) {
-                    console.log("this is the response" + response.status)
-                    console.log('the patient id' + localStorage.pat_id)
-                    navigator.notification.alert("Your status for " + localStorage.pat_id
-                    +" was sent" , function() {});
-                } else {
-                    console.log("in the else in the call server ")
-                    // navigator.notification.alert("Your Status failed", function() {});
-                }
+                console.log(response.status)
+                $.mobile.changePage("wounds.html", {
+                type: "post",
+                data: localStorage.id,
+                changeHash: false
+            }); 
+
             }
 
         });

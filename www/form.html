@@ -17,7 +17,7 @@
         </div>
         <div data-role="content">
             <div data-role="fieldcontain">
-                <form accept-charset="UTF-8" action="/statuses" id="new_status" method="post">
+                <form accept-charset="UTF-8" id="new_status" method="post">
                     <div style="display:none">
                         <input name="utf8" type="hidden" value="&#x2713;" />
                         <input name="authenticity_token" type="hidden" value="rmkSRB5CjZqWqU7InbV4vEo6RRc6uuFw9CTojn6meYE=" />
@@ -27,7 +27,7 @@
                     <input id="wound_id" name="wound_id" type="hidden"  />
 
                     <input id="patient_id" name="patient_id" type="hidden" />
-                    <p>in the form B</p>
+                    
 
                     <label for="status_stage">Wound Stage:</label>
 
@@ -77,7 +77,7 @@
 
                     <label for="status_image_url">Image</label>
                     <img id="myImage" src="" alt="" height="150" width="150">
-                    <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" />
+                    <!-- <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" /> -->
 
                     <label for="status_note">Notes</label>
                     <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true"></textarea>

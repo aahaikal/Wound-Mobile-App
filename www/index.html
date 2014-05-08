@@ -50,6 +50,7 @@
             <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
         </div>
         <div data-role="content">
+            <h3>Current Patients: </h3>
 
 
         </div>
@@ -210,24 +211,27 @@
         $("#patient_id").attr('value',localStorage.pat_id )
         $("#wound_id").attr('value', localStorage.id)
 
-        // -----------ajax to het patients wounds for page id wounds
-        $.ajax({
-            url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.pat_id,
-            success: function(e) {
-                console.log("this is the show method in the aptient show" + e);
-                console.log(e)
-                var ul = $('<ul>').appendTo('.ui-content');
-                $(e.woundlocation).each(function(index, item) {
-                    ul.append(
-                        $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'newstatus(this)')
-                    );
-                });
+        // -----------ajax to get patients wounds for page id wounds
+        // $.ajax({
+        //     url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.pat_id,
+        //     success: function(e) {
+        //         console.log("this is the show method in the aptient show" + e);
+        //         console.log(e)
+        //         var ul = $('<ul>').appendTo('.ui-content');
+        //         $(e.woundlocation).each(function(index, item) {
+        //             ul.append(
+        //                 $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all").attr('id', e.ids[index]).attr('onclick', 'newstatus(this)')
+        //             );
+        //         });
 
-            },
-            dataType: "json"
-        });
+        //     },
+        //     dataType: "json"
+        // });
         // ---------------------------ajax
     });
+
+
+
   
     </script>
 
