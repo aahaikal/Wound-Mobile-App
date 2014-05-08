@@ -67,6 +67,11 @@
     <feature name="PhoneGapSpeechPlugin">
         <param name="ios-package" value="PhoneGapSpeechPlugin" />
     </feature>
+    <key>Plugins</key>
+    <dict>
+        <key>Notification</key>
+        <string>CDVNotification</string>
+    </dict>
     <access origin="*" />
     <access origin="*localhost*" />
 </widget>
