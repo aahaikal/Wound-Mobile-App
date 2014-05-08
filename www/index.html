@@ -127,7 +127,7 @@
 
         //-------------------ajax---user patients----           
         $.ajax({
-            url: "http://0.0.0.0:3000/api/v1/users/" + 1,
+            url: "http://morning-wave-9385.herokuapp.com/api/v1/users/" + 1,
             success: function(e) {
                 console.log("patients name>>>>" + e.patientname);
                 var ul = $('<ul>').appendTo('.ui-content');
@@ -168,7 +168,7 @@
         console.log('something in the wounds' + localStorage.pat_id)
         //-----------ajax to het patients wounds for page id wounds
         $.ajax({
-            url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.pat_id,
+            url: "http://morning-wave-9385.herokuapp.com/api/v1/patients/" + localStorage.pat_id,
             success: function(e) {
                 console.log("this is the show method in the aptient show" + e);
                 console.log(e)
