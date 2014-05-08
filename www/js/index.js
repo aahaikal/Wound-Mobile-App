@@ -56,7 +56,9 @@ var app = {
 
         function onSuccess(imageURI) {
             var image = document.getElementById('myImage');
+            // var image2 = document.getElementById('theimg');
             image.src = imageURI;
+            
         }
 
         function onFail(message) {
