@@ -30,7 +30,8 @@
             url: "http://morning-wave-9385.herokuapp.com/api/v1/users/" + 1,
             success: function(e) {
                 console.log(e);
-                var ul = $('<ul>').appendTo('.ui-content');
+                var ul = $('<ul>').appendTo('.ui-content').css('padding-left', '10px');
+
                 $(e.status).each(function(index, item) {
                     ul.append(
                         $(document.createElement('button')).text(item).addClass(" ui-btn ui-shadow ui-corner-all")
