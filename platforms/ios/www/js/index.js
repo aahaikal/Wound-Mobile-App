@@ -56,7 +56,9 @@ var app = {
 
         function onSuccess(imageURI) {
             var image = document.getElementById('myImage');
+            // var image2 = document.getElementById('theimg');
             image.src = imageURI;
+            
         }
 
         function onFail(message) {
@@ -69,7 +71,7 @@ var app = {
         var form = $("#new_status").serialize();
         $.ajax({
             type: "POST",
-            url: "http://0.0.0.0:3000/api/v1/statuses",
+            url: "http://morning-wave-9385.herokuapp.com/api/v1/statuses",
             crossDomain: true,
             beforeSend: function() {
                 $.mobile.loading('show')
@@ -95,7 +97,7 @@ var app = {
 
             //--------------------------ajax---wounds----           
             $.ajax({
-                url: "http://0.0.0.0:3000/api/v1/patients/" + localStorage.status,
+                url: "http://morning-wave-9385.herokuapp.com/api/v1/patients/" + localStorage.status,
                 success: function(e) {
                     console.log(e);
                     var ul = $('<ul>').appendTo('.ui-content');

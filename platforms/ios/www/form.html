@@ -24,25 +24,19 @@
                     </div>
 
 
-                    <input id="wound_id" name="wound_id" type="hidden"  />
+                    <input id="wound_id" name="wound_id" type="hidden" />
 
                     <input id="patient_id" name="patient_id" type="hidden" />
-                    
+
 
                     <label for="status_stage">Wound Stage:</label>
-
                     <input id="status_stage" onclick="startRecognition(this)" name="status[stage]" type="text" value="" data-clear-btn="true" />
 
 
 
                     <label for="status_stage_description">Stage Description</label>
-
                     <textarea cols="40" rows="8" onclick="startRecognition(this)" id="status_stage_description" name="status[stage_description]" value="" data-clear-btn="true"></textarea>
-
-
                     <button onclick="app.takePicture();">Capture Photo</button>
-
-
 
                     <label for="status_length">Length</label>
                     <input onclick="startRecognition(this)" id="status_length" name="status[length]" type="number" value="" data-clear-btn="true" />
@@ -50,6 +44,8 @@
                     <label for="status_width">Width</label>
                     <input onclick="startRecognition(this)" id="status_width" name="status[width]" type="number" value="" data-clear-btn="true" />
 
+                    <label for="status_depth">Depth</label>
+                    <input onclick="startRecognition(this)" id="status_depth" name="status[depth]" type="number" value="" data-clear-btn="true" />
 
                     <label for="status_odor">Odor</label>
                     <input id="status_odor" name="status[odor]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
@@ -76,8 +72,14 @@
                     <input id="status_pain" name="status[pain]" type="text" onclick="startRecognition(this)" value="" data-clear-btn="true" />
 
                     <label for="status_image_url">Image</label>
-                    <img id="myImage" src="" alt="" height="150" width="150">
-                    <!-- <input id="status_image_url" name="status[image_url]" type="text" type="hidden" value="" /> -->
+                    <img id="Image" src="" alt="" height="150" width="150">
+
+                    <input id="status_image" name="status[image]"  type="hidden" id="myImage" value="" />
+
+
+                    <!-- label for="observation_date">Observation Date</label>
+                    <input id="observation_date" name="status[observation_date]" type="date" value="" data-clear-btn="true" /> -->
+
 
                     <label for="status_note">Notes</label>
                     <textarea cols="40" rows="8" id="status_note" name="status[note]" onclick="startRecognition(this)" value="" data-clear-btn="true"></textarea>
